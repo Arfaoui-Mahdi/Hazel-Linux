@@ -1,0 +1,7 @@
+# Dir
+.vs/
+.vscode
+build/
+
+# files
+*.o

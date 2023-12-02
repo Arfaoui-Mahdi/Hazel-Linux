@@ -6,9 +6,25 @@
 
 #IncludeRegexTransform: 
 
-../Hazel/include/Test.h
+../Hazel/Hazel.hpp
+memory
+-
+string
+-
+vector
+-
+include/Application.hpp
+../Hazel/include/Application.hpp
+include/EmtryPoint.hpp
+../Hazel/include/EmtryPoint.hpp
 
-/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Sandbox/src/Main.cpp
-Test.h
-/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Sandbox/src/Test.h
+../Hazel/include/Application.hpp
+memory
+-
+
+../Hazel/include/EmtryPoint.hpp
+
+/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Sandbox/src/Application.cpp
+Hazel.hpp
+/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Sandbox/src/Hazel.hpp
 

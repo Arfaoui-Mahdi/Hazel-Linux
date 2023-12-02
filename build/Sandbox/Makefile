@@ -125,32 +125,32 @@ Hazel-Executable/fast:
 	cd /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build && $(MAKE) -f Sandbox/CMakeFiles/Hazel-Executable.dir/build.make Sandbox/CMakeFiles/Hazel-Executable.dir/build
 .PHONY : Hazel-Executable/fast
 
-src/Main.o: src/Main.cpp.o
+src/Application.o: src/Application.cpp.o
 
-.PHONY : src/Main.o
+.PHONY : src/Application.o
 
 # target to build an object file
-src/Main.cpp.o:
-	cd /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build && $(MAKE) -f Sandbox/CMakeFiles/Hazel-Executable.dir/build.make Sandbox/CMakeFiles/Hazel-Executable.dir/src/Main.cpp.o
-.PHONY : src/Main.cpp.o
+src/Application.cpp.o:
+	cd /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build && $(MAKE) -f Sandbox/CMakeFiles/Hazel-Executable.dir/build.make Sandbox/CMakeFiles/Hazel-Executable.dir/src/Application.cpp.o
+.PHONY : src/Application.cpp.o
 
-src/Main.i: src/Main.cpp.i
+src/Application.i: src/Application.cpp.i
 
-.PHONY : src/Main.i
+.PHONY : src/Application.i
 
 # target to preprocess a source file
-src/Main.cpp.i:
-	cd /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build && $(MAKE) -f Sandbox/CMakeFiles/Hazel-Executable.dir/build.make Sandbox/CMakeFiles/Hazel-Executable.dir/src/Main.cpp.i
-.PHONY : src/Main.cpp.i
+src/Application.cpp.i:
+	cd /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build && $(MAKE) -f Sandbox/CMakeFiles/Hazel-Executable.dir/build.make Sandbox/CMakeFiles/Hazel-Executable.dir/src/Application.cpp.i
+.PHONY : src/Application.cpp.i
 
-src/Main.s: src/Main.cpp.s
+src/Application.s: src/Application.cpp.s
 
-.PHONY : src/Main.s
+.PHONY : src/Application.s
 
 # target to generate assembly for a file
-src/Main.cpp.s:
-	cd /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build && $(MAKE) -f Sandbox/CMakeFiles/Hazel-Executable.dir/build.make Sandbox/CMakeFiles/Hazel-Executable.dir/src/Main.cpp.s
-.PHONY : src/Main.cpp.s
+src/Application.cpp.s:
+	cd /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build && $(MAKE) -f Sandbox/CMakeFiles/Hazel-Executable.dir/build.make Sandbox/CMakeFiles/Hazel-Executable.dir/src/Application.cpp.s
+.PHONY : src/Application.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Hazel-Executable"
-	@echo "... src/Main.o"
-	@echo "... src/Main.i"
-	@echo "... src/Main.s"
+	@echo "... src/Application.o"
+	@echo "... src/Application.i"
+	@echo "... src/Application.s"
 .PHONY : help
 
 

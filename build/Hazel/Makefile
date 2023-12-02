@@ -125,32 +125,32 @@ Hazel-Library/fast:
 	cd /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build && $(MAKE) -f Hazel/CMakeFiles/Hazel-Library.dir/build.make Hazel/CMakeFiles/Hazel-Library.dir/build
 .PHONY : Hazel-Library/fast
 
-src/Test.o: src/Test.cpp.o
+src/Application.o: src/Application.cpp.o
 
-.PHONY : src/Test.o
+.PHONY : src/Application.o
 
 # target to build an object file
-src/Test.cpp.o:
-	cd /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build && $(MAKE) -f Hazel/CMakeFiles/Hazel-Library.dir/build.make Hazel/CMakeFiles/Hazel-Library.dir/src/Test.cpp.o
-.PHONY : src/Test.cpp.o
+src/Application.cpp.o:
+	cd /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build && $(MAKE) -f Hazel/CMakeFiles/Hazel-Library.dir/build.make Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o
+.PHONY : src/Application.cpp.o
 
-src/Test.i: src/Test.cpp.i
+src/Application.i: src/Application.cpp.i
 
-.PHONY : src/Test.i
+.PHONY : src/Application.i
 
 # target to preprocess a source file
-src/Test.cpp.i:
-	cd /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build && $(MAKE) -f Hazel/CMakeFiles/Hazel-Library.dir/build.make Hazel/CMakeFiles/Hazel-Library.dir/src/Test.cpp.i
-.PHONY : src/Test.cpp.i
+src/Application.cpp.i:
+	cd /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build && $(MAKE) -f Hazel/CMakeFiles/Hazel-Library.dir/build.make Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.i
+.PHONY : src/Application.cpp.i
 
-src/Test.s: src/Test.cpp.s
+src/Application.s: src/Application.cpp.s
 
-.PHONY : src/Test.s
+.PHONY : src/Application.s
 
 # target to generate assembly for a file
-src/Test.cpp.s:
-	cd /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build && $(MAKE) -f Hazel/CMakeFiles/Hazel-Library.dir/build.make Hazel/CMakeFiles/Hazel-Library.dir/src/Test.cpp.s
-.PHONY : src/Test.cpp.s
+src/Application.cpp.s:
+	cd /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build && $(MAKE) -f Hazel/CMakeFiles/Hazel-Library.dir/build.make Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.s
+.PHONY : src/Application.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Hazel-Library"
-	@echo "... src/Test.o"
-	@echo "... src/Test.i"
-	@echo "... src/Test.s"
+	@echo "... src/Application.o"
+	@echo "... src/Application.i"
+	@echo "... src/Application.s"
 .PHONY : help
 
 

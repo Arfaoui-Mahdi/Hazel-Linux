@@ -57,27 +57,27 @@ include Sandbox/CMakeFiles/Hazel-Executable.dir/progress.make
 # Include the compile flags for this target's objects.
 include Sandbox/CMakeFiles/Hazel-Executable.dir/flags.make
 
-Sandbox/CMakeFiles/Hazel-Executable.dir/src/Main.cpp.o: Sandbox/CMakeFiles/Hazel-Executable.dir/flags.make
-Sandbox/CMakeFiles/Hazel-Executable.dir/src/Main.cpp.o: ../Sandbox/src/Main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Sandbox/CMakeFiles/Hazel-Executable.dir/src/Main.cpp.o"
-	cd /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Sandbox && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hazel-Executable.dir/src/Main.cpp.o -c /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Sandbox/src/Main.cpp
+Sandbox/CMakeFiles/Hazel-Executable.dir/src/Application.cpp.o: Sandbox/CMakeFiles/Hazel-Executable.dir/flags.make
+Sandbox/CMakeFiles/Hazel-Executable.dir/src/Application.cpp.o: ../Sandbox/src/Application.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Sandbox/CMakeFiles/Hazel-Executable.dir/src/Application.cpp.o"
+	cd /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Sandbox && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hazel-Executable.dir/src/Application.cpp.o -c /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Sandbox/src/Application.cpp
 
-Sandbox/CMakeFiles/Hazel-Executable.dir/src/Main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hazel-Executable.dir/src/Main.cpp.i"
-	cd /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Sandbox && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Sandbox/src/Main.cpp > CMakeFiles/Hazel-Executable.dir/src/Main.cpp.i
+Sandbox/CMakeFiles/Hazel-Executable.dir/src/Application.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hazel-Executable.dir/src/Application.cpp.i"
+	cd /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Sandbox && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Sandbox/src/Application.cpp > CMakeFiles/Hazel-Executable.dir/src/Application.cpp.i
 
-Sandbox/CMakeFiles/Hazel-Executable.dir/src/Main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hazel-Executable.dir/src/Main.cpp.s"
-	cd /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Sandbox && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Sandbox/src/Main.cpp -o CMakeFiles/Hazel-Executable.dir/src/Main.cpp.s
+Sandbox/CMakeFiles/Hazel-Executable.dir/src/Application.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hazel-Executable.dir/src/Application.cpp.s"
+	cd /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Sandbox && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Sandbox/src/Application.cpp -o CMakeFiles/Hazel-Executable.dir/src/Application.cpp.s
 
 # Object files for target Hazel-Executable
 Hazel__Executable_OBJECTS = \
-"CMakeFiles/Hazel-Executable.dir/src/Main.cpp.o"
+"CMakeFiles/Hazel-Executable.dir/src/Application.cpp.o"
 
 # External object files for target Hazel-Executable
 Hazel__Executable_EXTERNAL_OBJECTS =
 
-Sandbox/Hazel-Executable: Sandbox/CMakeFiles/Hazel-Executable.dir/src/Main.cpp.o
+Sandbox/Hazel-Executable: Sandbox/CMakeFiles/Hazel-Executable.dir/src/Application.cpp.o
 Sandbox/Hazel-Executable: Sandbox/CMakeFiles/Hazel-Executable.dir/build.make
 Sandbox/Hazel-Executable: Hazel/libHazel-Library.so
 Sandbox/Hazel-Executable: Sandbox/CMakeFiles/Hazel-Executable.dir/link.txt

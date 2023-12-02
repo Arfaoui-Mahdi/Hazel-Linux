@@ -57,27 +57,27 @@ include Hazel/CMakeFiles/Hazel-Library.dir/progress.make
 # Include the compile flags for this target's objects.
 include Hazel/CMakeFiles/Hazel-Library.dir/flags.make
 
-Hazel/CMakeFiles/Hazel-Library.dir/src/Test.cpp.o: Hazel/CMakeFiles/Hazel-Library.dir/flags.make
-Hazel/CMakeFiles/Hazel-Library.dir/src/Test.cpp.o: ../Hazel/src/Test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Hazel/CMakeFiles/Hazel-Library.dir/src/Test.cpp.o"
-	cd /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hazel-Library.dir/src/Test.cpp.o -c /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Hazel/src/Test.cpp
+Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o: Hazel/CMakeFiles/Hazel-Library.dir/flags.make
+Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o: ../Hazel/src/Application.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o"
+	cd /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hazel-Library.dir/src/Application.cpp.o -c /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Hazel/src/Application.cpp
 
-Hazel/CMakeFiles/Hazel-Library.dir/src/Test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hazel-Library.dir/src/Test.cpp.i"
-	cd /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Hazel/src/Test.cpp > CMakeFiles/Hazel-Library.dir/src/Test.cpp.i
+Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hazel-Library.dir/src/Application.cpp.i"
+	cd /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Hazel/src/Application.cpp > CMakeFiles/Hazel-Library.dir/src/Application.cpp.i
 
-Hazel/CMakeFiles/Hazel-Library.dir/src/Test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hazel-Library.dir/src/Test.cpp.s"
-	cd /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Hazel/src/Test.cpp -o CMakeFiles/Hazel-Library.dir/src/Test.cpp.s
+Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hazel-Library.dir/src/Application.cpp.s"
+	cd /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Hazel/src/Application.cpp -o CMakeFiles/Hazel-Library.dir/src/Application.cpp.s
 
 # Object files for target Hazel-Library
 Hazel__Library_OBJECTS = \
-"CMakeFiles/Hazel-Library.dir/src/Test.cpp.o"
+"CMakeFiles/Hazel-Library.dir/src/Application.cpp.o"
 
 # External object files for target Hazel-Library
 Hazel__Library_EXTERNAL_OBJECTS =
 
-Hazel/libHazel-Library.so: Hazel/CMakeFiles/Hazel-Library.dir/src/Test.cpp.o
+Hazel/libHazel-Library.so: Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o
 Hazel/libHazel-Library.so: Hazel/CMakeFiles/Hazel-Library.dir/build.make
 Hazel/libHazel-Library.so: Hazel/CMakeFiles/Hazel-Library.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libHazel-Library.so"

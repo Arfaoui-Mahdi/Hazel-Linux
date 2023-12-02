@@ -1,4 +1,0 @@
-namespace Hazel {
-
-    void Print();
-}

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Hazel/src/Test.cpp" "/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/CMakeFiles/Hazel-Library.dir/src/Test.cpp.o"
+  "/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Hazel/src/Application.cpp" "/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -16,6 +16,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../Hazel/include"
+  "../Hazel/."
   )
 
 # Targets to which this target links.
