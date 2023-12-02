@@ -75,18 +75,56 @@ clean: Sandbox/clean
 
 # Recursive "all" directory target.
 Hazel/all: Hazel/CMakeFiles/Hazel-Library.dir/all
+Hazel/all: Hazel/vendor/all
 
 .PHONY : Hazel/all
 
 # Recursive "preinstall" directory target.
-Hazel/preinstall:
+Hazel/preinstall: Hazel/vendor/preinstall
 
 .PHONY : Hazel/preinstall
 
 # Recursive "clean" directory target.
 Hazel/clean: Hazel/CMakeFiles/Hazel-Library.dir/clean
+Hazel/clean: Hazel/vendor/clean
 
 .PHONY : Hazel/clean
+
+#=============================================================================
+# Directory level rules for directory Hazel/vendor
+
+# Recursive "all" directory target.
+Hazel/vendor/all: Hazel/vendor/spdlog/all
+
+.PHONY : Hazel/vendor/all
+
+# Recursive "preinstall" directory target.
+Hazel/vendor/preinstall: Hazel/vendor/spdlog/preinstall
+
+.PHONY : Hazel/vendor/preinstall
+
+# Recursive "clean" directory target.
+Hazel/vendor/clean: Hazel/vendor/spdlog/clean
+
+.PHONY : Hazel/vendor/clean
+
+#=============================================================================
+# Directory level rules for directory Hazel/vendor/spdlog
+
+# Recursive "all" directory target.
+Hazel/vendor/spdlog/all: Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/all
+
+.PHONY : Hazel/vendor/spdlog/all
+
+# Recursive "preinstall" directory target.
+Hazel/vendor/spdlog/preinstall:
+
+.PHONY : Hazel/vendor/spdlog/preinstall
+
+# Recursive "clean" directory target.
+Hazel/vendor/spdlog/clean: Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/clean
+
+.PHONY : Hazel/vendor/spdlog/clean
 
 #=============================================================================
 # Directory level rules for directory Sandbox
@@ -113,12 +151,12 @@ Sandbox/clean: Sandbox/CMakeFiles/Hazel-Executable.dir/clean
 Hazel/CMakeFiles/Hazel-Library.dir/all:
 	$(MAKE) -f Hazel/CMakeFiles/Hazel-Library.dir/build.make Hazel/CMakeFiles/Hazel-Library.dir/depend
 	$(MAKE) -f Hazel/CMakeFiles/Hazel-Library.dir/build.make Hazel/CMakeFiles/Hazel-Library.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles --progress-num=3,4 "Built target Hazel-Library"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles --progress-num=3,4,5 "Built target Hazel-Library"
 .PHONY : Hazel/CMakeFiles/Hazel-Library.dir/all
 
 # Build rule for subdir invocation for target.
 Hazel/CMakeFiles/Hazel-Library.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 Hazel/CMakeFiles/Hazel-Library.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles 0
 .PHONY : Hazel/CMakeFiles/Hazel-Library.dir/rule
@@ -134,6 +172,33 @@ Hazel/CMakeFiles/Hazel-Library.dir/clean:
 .PHONY : Hazel/CMakeFiles/Hazel-Library.dir/clean
 
 #=============================================================================
+# Target rules for target Hazel/vendor/spdlog/CMakeFiles/spdlog.dir
+
+# All Build rule for target.
+Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/all:
+	$(MAKE) -f Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/build.make Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/depend
+	$(MAKE) -f Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/build.make Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles --progress-num=6,7,8,9,10,11,12,13 "Built target spdlog"
+.PHONY : Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/all
+
+# Build rule for subdir invocation for target.
+Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles 8
+	$(MAKE) -f CMakeFiles/Makefile2 Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles 0
+.PHONY : Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/rule
+
+# Convenience name for target.
+spdlog: Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/rule
+
+.PHONY : spdlog
+
+# clean rule for target.
+Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/clean:
+	$(MAKE) -f Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/build.make Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/clean
+.PHONY : Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/clean
+
+#=============================================================================
 # Target rules for target Sandbox/CMakeFiles/Hazel-Executable.dir
 
 # All Build rule for target.
@@ -145,7 +210,7 @@ Sandbox/CMakeFiles/Hazel-Executable.dir/all: Hazel/CMakeFiles/Hazel-Library.dir/
 
 # Build rule for subdir invocation for target.
 Sandbox/CMakeFiles/Hazel-Executable.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 Sandbox/CMakeFiles/Hazel-Executable.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles 0
 .PHONY : Sandbox/CMakeFiles/Hazel-Executable.dir/rule

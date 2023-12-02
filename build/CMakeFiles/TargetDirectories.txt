@@ -3,6 +3,11 @@
 /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/CMakeFiles/rebuild_cache.dir
 /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/CMakeFiles/edit_cache.dir
 /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/CMakeFiles/Hazel-Library.dir
+/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/vendor/CMakeFiles/rebuild_cache.dir
+/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/vendor/CMakeFiles/edit_cache.dir
+/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/vendor/spdlog/CMakeFiles/edit_cache.dir
+/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/vendor/spdlog/CMakeFiles/rebuild_cache.dir
+/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/vendor/spdlog/CMakeFiles/spdlog.dir
 /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Sandbox/CMakeFiles/rebuild_cache.dir
 /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Sandbox/CMakeFiles/edit_cache.dir
 /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Sandbox/CMakeFiles/Hazel-Executable.dir

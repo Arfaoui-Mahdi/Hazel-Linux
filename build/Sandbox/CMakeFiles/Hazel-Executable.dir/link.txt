@@ -1,1 +1,1 @@
-/usr/bin/g++  -g   CMakeFiles/Hazel-Executable.dir/src/Application.cpp.o  -o Hazel-Executable  -Wl,-rpath,/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel ../Hazel/libHazel-Library.so 
+/usr/bin/g++  -g   CMakeFiles/Hazel-Executable.dir/src/Application.cpp.o  -o Hazel-Executable  -Wl,-rpath,/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel ../Hazel/libHazel-Library.so -lpthread 

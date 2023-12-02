@@ -1,1 +1,1 @@
-/usr/bin/g++ -fPIC -g  -shared -Wl,-soname,libHazel-Library.so -o libHazel-Library.so CMakeFiles/Hazel-Library.dir/src/Application.cpp.o 
+/usr/bin/g++ -fPIC -g  -shared -Wl,-soname,libHazel-Library.so -o libHazel-Library.so CMakeFiles/Hazel-Library.dir/src/Application.cpp.o CMakeFiles/Hazel-Library.dir/src/Log.cpp.o  -lpthread 

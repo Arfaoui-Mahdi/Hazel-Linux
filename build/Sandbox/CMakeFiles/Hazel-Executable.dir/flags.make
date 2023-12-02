@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++2a
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Hazel/include -I/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Hazel/. 
+CXX_INCLUDES = -I/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Hazel/include -I/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Hazel/. -I/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Hazel/vendor/spdlog/include 
 
