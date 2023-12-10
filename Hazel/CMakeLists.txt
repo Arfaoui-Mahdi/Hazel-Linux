@@ -8,7 +8,15 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CURRENT_BINARY_DIR ${CMAKE_CURRENT_SOURCE_DIR}/build)
 
 
-add_library(${PROJECT_NAME} SHARED src/Application.cpp)
+add_library(${PROJECT_NAME} SHARED src/Application.cpp
+                                   src/Log.cpp)
 
 target_include_directories(${PROJECT_NAME} PUBLIC include/ 
-                                                    .)
+                                                  Events/
+                                                  .
+)
+
+target_link_libraries(${PROJECT_NAME} spdlog_header_only)
+
+add_subdirectory(vendor)
+

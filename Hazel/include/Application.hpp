@@ -3,6 +3,8 @@
 
 #include <memory>
 
+#include "Log.hpp"
+
 namespace Hazel {
 
     class Application {

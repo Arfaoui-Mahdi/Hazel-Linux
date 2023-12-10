@@ -2,6 +2,13 @@
 .vs/
 .vscode
 build/
+CMakeFiles/
+Hazel/CMakeFiles/Hazel-Library.dir/
+
 
 # files
 *.o
+*.so
+*.cmake
+*.make
+Makefile
