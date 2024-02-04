@@ -18,6 +18,14 @@ hzpch.hpp
 hzpch.hpp
 ../Hazel/Events/hzpch.hpp
 
+../Hazel/Logger/include/Log.hpp
+memory
+-
+spdlog/spdlog.h
+../Hazel/Logger/include/spdlog/spdlog.h
+spdlog/fmt/ostr.h
+../Hazel/Logger/include/spdlog/fmt/ostr.h
+
 ../Hazel/Platform/Linux/LinuxWindow.hpp
 Window.hpp
 ../Hazel/Platform/Linux/Window.hpp
@@ -39,14 +47,6 @@ LinuxWindow.hpp
 ../Hazel/include/LinuxWindow.hpp
 
 ../Hazel/include/Core.hpp
-
-../Hazel/include/Log.hpp
-memory
--
-spdlog/spdlog.h
-../Hazel/include/spdlog/spdlog.h
-spdlog/fmt/ostr.h
-../Hazel/include/spdlog/fmt/ostr.h
 
 ../Hazel/pre_compiled_header/hzpch.hpp
 iostream

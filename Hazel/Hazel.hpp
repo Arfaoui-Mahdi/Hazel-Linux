@@ -10,4 +10,4 @@
 // Hazel includes
 #include "include/Application.hpp"
 #include "include/EmtryPoint.hpp" /* Entry Point */
-#include "include/Log.hpp"
+#include "Log.hpp"

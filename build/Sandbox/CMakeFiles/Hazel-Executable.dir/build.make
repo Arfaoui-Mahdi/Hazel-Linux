@@ -81,6 +81,7 @@ Sandbox/Hazel-Executable: Sandbox/CMakeFiles/Hazel-Executable.dir/src/Applicatio
 Sandbox/Hazel-Executable: Sandbox/CMakeFiles/Hazel-Executable.dir/build.make
 Sandbox/Hazel-Executable: Hazel/libHazel-Library.so
 Sandbox/Hazel-Executable: Hazel/Platform/Linux/liblinux_window.a
+Sandbox/Hazel-Executable: Hazel/Logger/libHazel-Logger.so
 Sandbox/Hazel-Executable: Hazel/vendor/GLFW/src/libglfw3.a
 Sandbox/Hazel-Executable: /usr/lib/x86_64-linux-gnu/librt.so
 Sandbox/Hazel-Executable: /usr/lib/x86_64-linux-gnu/libm.so
