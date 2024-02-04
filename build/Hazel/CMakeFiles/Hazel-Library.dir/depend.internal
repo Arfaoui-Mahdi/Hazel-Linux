@@ -4,9 +4,13 @@
 Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o
  ../Hazel/Events/ApplicationEvent.hpp
  ../Hazel/Events/Event.hpp
+ ../Hazel/Platform/Linux/LinuxWindow.hpp
+ ../Hazel/Window.hpp
  ../Hazel/include/Application.hpp
  ../Hazel/include/Core.hpp
  ../Hazel/include/Log.hpp
+ ../Hazel/pre_compiled_header/hzpch.hpp
+ ../Hazel/vendor/GLFW/include/GLFW/glfw3.h
  ../Hazel/vendor/spdlog/include/spdlog/common-inl.h
  ../Hazel/vendor/spdlog/include/spdlog/common.h
  ../Hazel/vendor/spdlog/include/spdlog/details/backtracer-inl.h
@@ -53,6 +57,7 @@ Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o
  /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Hazel/src/Application.cpp
 Hazel/CMakeFiles/Hazel-Library.dir/src/Log.cpp.o
  ../Hazel/include/Log.hpp
+ ../Hazel/pre_compiled_header/hzpch.hpp
  ../Hazel/vendor/spdlog/include/spdlog/common-inl.h
  ../Hazel/vendor/spdlog/include/spdlog/common.h
  ../Hazel/vendor/spdlog/include/spdlog/details/backtracer-inl.h

@@ -2,8 +2,7 @@
 
 #include "../include/Core.hpp"
 
-#include <string>
-#include <functional>
+#include "hzpch.hpp"
 
 namespace Hazel
 {

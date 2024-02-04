@@ -1,1 +1,1 @@
-/usr/bin/g++ -fPIC -g  -shared -Wl,-soname,libHazel-Library.so -o libHazel-Library.so CMakeFiles/Hazel-Library.dir/src/Application.cpp.o CMakeFiles/Hazel-Library.dir/src/Log.cpp.o  -lpthread 
+/usr/bin/g++ -fPIC -g  -shared -Wl,-soname,libHazel-Library.so -o libHazel-Library.so CMakeFiles/Hazel-Library.dir/src/Application.cpp.o CMakeFiles/Hazel-Library.dir/src/Log.cpp.o  vendor/GLFW/src/libglfw3.a Platform/Linux/liblinux_window.a vendor/GLFW/src/libglfw3.a -lpthread /usr/lib/x86_64-linux-gnu/librt.so -lm -ldl 

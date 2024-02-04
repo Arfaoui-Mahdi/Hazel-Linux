@@ -3,9 +3,13 @@
 
 Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o: ../Hazel/Events/ApplicationEvent.hpp
 Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o: ../Hazel/Events/Event.hpp
+Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o: ../Hazel/Platform/Linux/LinuxWindow.hpp
+Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o: ../Hazel/Window.hpp
 Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o: ../Hazel/include/Application.hpp
 Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o: ../Hazel/include/Core.hpp
 Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o: ../Hazel/include/Log.hpp
+Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o: ../Hazel/pre_compiled_header/hzpch.hpp
+Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o: ../Hazel/vendor/GLFW/include/GLFW/glfw3.h
 Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o: ../Hazel/vendor/spdlog/include/spdlog/common-inl.h
 Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o: ../Hazel/vendor/spdlog/include/spdlog/common.h
 Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o: ../Hazel/vendor/spdlog/include/spdlog/details/backtracer-inl.h
@@ -52,6 +56,7 @@ Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o: ../Hazel/vendor/spdlog
 Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o: ../Hazel/src/Application.cpp
 
 Hazel/CMakeFiles/Hazel-Library.dir/src/Log.cpp.o: ../Hazel/include/Log.hpp
+Hazel/CMakeFiles/Hazel-Library.dir/src/Log.cpp.o: ../Hazel/pre_compiled_header/hzpch.hpp
 Hazel/CMakeFiles/Hazel-Library.dir/src/Log.cpp.o: ../Hazel/vendor/spdlog/include/spdlog/common-inl.h
 Hazel/CMakeFiles/Hazel-Library.dir/src/Log.cpp.o: ../Hazel/vendor/spdlog/include/spdlog/common.h
 Hazel/CMakeFiles/Hazel-Library.dir/src/Log.cpp.o: ../Hazel/vendor/spdlog/include/spdlog/details/backtracer-inl.h

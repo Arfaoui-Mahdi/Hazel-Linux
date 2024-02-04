@@ -14,11 +14,17 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../Hazel/Events"
   "../Hazel/."
   "../Hazel/vendor/spdlog/include"
+  "../Hazel/pre_compiled_header/."
+  "../Hazel/vendor/GLFW/include"
+  "../Hazel/Platform/Linux/."
+  "../Hazel/Platform/Linux/../.."
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/CMakeFiles/Hazel-Library.dir/DependInfo.cmake"
+  "/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/Platform/Linux/CMakeFiles/linux_window.dir/DependInfo.cmake"
+  "/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

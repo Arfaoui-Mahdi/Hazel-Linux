@@ -14,6 +14,9 @@
 # EXTERNAL cache entries
 ########################
 
+//Build shared libraries
+BUILD_SHARED_LIBS:BOOL=OFF
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
 
@@ -271,6 +274,37 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//Doxygen documentation generation tool (http://www.doxygen.org)
+DOXYGEN_EXECUTABLE:FILEPATH=/usr/bin/doxygen
+
+//Value Computed by CMake
+GLFW_BINARY_DIR:STATIC=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/vendor/GLFW
+
+//Build the GLFW documentation
+GLFW_BUILD_DOCS:BOOL=ON
+
+//Build the GLFW example programs
+GLFW_BUILD_EXAMPLES:BOOL=OFF
+
+//Build the GLFW test programs
+GLFW_BUILD_TESTS:BOOL=OFF
+
+//Build support for Wayland
+GLFW_BUILD_WAYLAND:BOOL=OFF
+
+//Build support for X11
+GLFW_BUILD_X11:BOOL=ON
+
+//Generate installation target
+GLFW_INSTALL:BOOL=ON
+
+//Library type override for GLFW (SHARED, STATIC, OBJECT, or empty
+// to follow BUILD_SHARED_LIBS)
+GLFW_LIBRARY_TYPE:STRING=
+
+//Value Computed by CMake
+GLFW_SOURCE_DIR:STATIC=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Hazel/vendor/GLFW
+
 //Value Computed by CMake
 Hazel-Executable_BINARY_DIR:STATIC=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Sandbox
 
@@ -288,6 +322,12 @@ Hazel-Project_BINARY_DIR:STATIC=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/H
 
 //Value Computed by CMake
 Hazel-Project_SOURCE_DIR:STATIC=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux
+
+//Path to a library.
+MATH_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libm.so
+
+//Path to a library.
+RT_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/librt.so
 
 //Build all artifacts
 SPDLOG_BUILD_ALL:BOOL=OFF
@@ -370,6 +410,198 @@ SPDLOG_WCHAR_FILENAMES:BOOL=OFF
 
 //non supported option
 SPDLOG_WCHAR_SUPPORT:BOOL=OFF
+
+//Path to a file.
+X11_ICE_INCLUDE_PATH:PATH=X11_ICE_INCLUDE_PATH-NOTFOUND
+
+//Path to a library.
+X11_ICE_LIB:FILEPATH=X11_ICE_LIB-NOTFOUND
+
+//Path to a file.
+X11_SM_INCLUDE_PATH:PATH=X11_SM_INCLUDE_PATH-NOTFOUND
+
+//Path to a library.
+X11_SM_LIB:FILEPATH=X11_SM_LIB-NOTFOUND
+
+//Path to a file.
+X11_X11_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a library.
+X11_X11_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libX11.so
+
+//Path to a file.
+X11_XRes_INCLUDE_PATH:PATH=X11_XRes_INCLUDE_PATH-NOTFOUND
+
+//Path to a library.
+X11_XRes_LIB:FILEPATH=X11_XRes_LIB-NOTFOUND
+
+//Path to a file.
+X11_XShm_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a file.
+X11_XSync_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a file.
+X11_Xaccessrules_INCLUDE_PATH:PATH=X11_Xaccessrules_INCLUDE_PATH-NOTFOUND
+
+//Path to a file.
+X11_Xaccessstr_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a file.
+X11_Xau_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a library.
+X11_Xau_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXau.so
+
+//Path to a file.
+X11_Xcomposite_INCLUDE_PATH:PATH=X11_Xcomposite_INCLUDE_PATH-NOTFOUND
+
+//Path to a library.
+X11_Xcomposite_LIB:FILEPATH=X11_Xcomposite_LIB-NOTFOUND
+
+//Path to a file.
+X11_Xcursor_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a library.
+X11_Xcursor_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXcursor.so
+
+//Path to a file.
+X11_Xdamage_INCLUDE_PATH:PATH=X11_Xdamage_INCLUDE_PATH-NOTFOUND
+
+//Path to a library.
+X11_Xdamage_LIB:FILEPATH=X11_Xdamage_LIB-NOTFOUND
+
+//Path to a file.
+X11_Xdmcp_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a library.
+X11_Xdmcp_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXdmcp.so
+
+//Path to a file.
+X11_Xext_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a library.
+X11_Xext_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXext.so
+
+//Path to a file.
+X11_Xfixes_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a library.
+X11_Xfixes_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXfixes.so
+
+//Path to a file.
+X11_Xft_INCLUDE_PATH:PATH=X11_Xft_INCLUDE_PATH-NOTFOUND
+
+//Path to a library.
+X11_Xft_LIB:FILEPATH=X11_Xft_LIB-NOTFOUND
+
+//Path to a file.
+X11_Xi_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a library.
+X11_Xi_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXi.so
+
+//Path to a file.
+X11_Xinerama_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a library.
+X11_Xinerama_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXinerama.so
+
+//Path to a file.
+X11_Xkb_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a file.
+X11_Xkblib_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a file.
+X11_Xlib_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a file.
+X11_Xmu_INCLUDE_PATH:PATH=X11_Xmu_INCLUDE_PATH-NOTFOUND
+
+//Path to a library.
+X11_Xmu_LIB:FILEPATH=X11_Xmu_LIB-NOTFOUND
+
+//Path to a file.
+X11_Xpm_INCLUDE_PATH:PATH=X11_Xpm_INCLUDE_PATH-NOTFOUND
+
+//Path to a library.
+X11_Xpm_LIB:FILEPATH=X11_Xpm_LIB-NOTFOUND
+
+//Path to a file.
+X11_Xrandr_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a library.
+X11_Xrandr_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXrandr.so
+
+//Path to a file.
+X11_Xrender_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a library.
+X11_Xrender_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXrender.so
+
+//Path to a file.
+X11_Xshape_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a file.
+X11_Xss_INCLUDE_PATH:PATH=X11_Xss_INCLUDE_PATH-NOTFOUND
+
+//Path to a library.
+X11_Xss_LIB:FILEPATH=X11_Xss_LIB-NOTFOUND
+
+//Path to a file.
+X11_Xt_INCLUDE_PATH:PATH=X11_Xt_INCLUDE_PATH-NOTFOUND
+
+//Path to a library.
+X11_Xt_LIB:FILEPATH=X11_Xt_LIB-NOTFOUND
+
+//Path to a file.
+X11_Xtst_INCLUDE_PATH:PATH=X11_Xtst_INCLUDE_PATH-NOTFOUND
+
+//Path to a library.
+X11_Xtst_LIB:FILEPATH=X11_Xtst_LIB-NOTFOUND
+
+//Path to a file.
+X11_Xutil_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a file.
+X11_Xv_INCLUDE_PATH:PATH=X11_Xv_INCLUDE_PATH-NOTFOUND
+
+//Path to a library.
+X11_Xv_LIB:FILEPATH=X11_Xv_LIB-NOTFOUND
+
+//Path to a file.
+X11_Xxf86misc_INCLUDE_PATH:PATH=X11_Xxf86misc_INCLUDE_PATH-NOTFOUND
+
+//Path to a library.
+X11_Xxf86misc_LIB:FILEPATH=X11_Xxf86misc_LIB-NOTFOUND
+
+//Path to a file.
+X11_Xxf86vm_INCLUDE_PATH:PATH=X11_Xxf86vm_INCLUDE_PATH-NOTFOUND
+
+//Path to a library.
+X11_Xxf86vm_LIB:FILEPATH=X11_Xxf86vm_LIB-NOTFOUND
+
+//Path to a file.
+X11_dpms_INCLUDE_PATH:PATH=/usr/include
+
+//Path to a file.
+X11_xkbfile_INCLUDE_PATH:PATH=X11_xkbfile_INCLUDE_PATH-NOTFOUND
+
+//Path to a library.
+X11_xkbfile_LIB:FILEPATH=X11_xkbfile_LIB-NOTFOUND
+
+//Value Computed by CMake
+hzpch_lib_BINARY_DIR:STATIC=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/pre_compiled_header
+
+//Value Computed by CMake
+hzpch_lib_SOURCE_DIR:STATIC=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Hazel/pre_compiled_header
+
+//Value Computed by CMake
+linux_window_BINARY_DIR:STATIC=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/Platform/Linux
+
+//Value Computed by CMake
+linux_window_SOURCE_DIR:STATIC=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Hazel/Platform/Linux
 
 //Value Computed by CMake
 spdlog_BINARY_DIR:STATIC=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/vendor/spdlog
@@ -460,6 +692,10 @@ CMAKE_GENERATOR_INSTANCE:INTERNAL=
 CMAKE_GENERATOR_PLATFORM:INTERNAL=
 //Name of generator toolset.
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
+//Have function connect
+CMAKE_HAVE_CONNECT:INTERNAL=1
+//Have function gethostbyname
+CMAKE_HAVE_GETHOSTBYNAME:INTERNAL=1
 //Test CMAKE_HAVE_LIBC_PTHREAD
 CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=
 //Have library pthreads
@@ -468,6 +704,10 @@ CMAKE_HAVE_PTHREADS_CREATE:INTERNAL=
 CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
 //Have include pthread.h
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
+//Have function remove
+CMAKE_HAVE_REMOVE:INTERNAL=1
+//Have function shmat
+CMAKE_HAVE_SHMAT:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
 CMAKE_HOME_DIRECTORY:INTERNAL=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux
@@ -522,7 +762,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -565,8 +805,144 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: DOXYGEN_EXECUTABLE
+DOXYGEN_EXECUTABLE-ADVANCED:INTERNAL=1
+//Details about finding Doxygen
+FIND_PACKAGE_MESSAGE_DETAILS_Doxygen:INTERNAL=[/usr/bin/doxygen][cfound components: doxygen ][v1.8.17()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+//Details about finding X11
+FIND_PACKAGE_MESSAGE_DETAILS_X11:INTERNAL=[/usr/include][/usr/lib/x86_64-linux-gnu/libX11.so][c ][v()]
+//GLFW pkg-config Libs.private
+GLFW_PKG_CONFIG_LIBS_PRIVATE:INTERNAL= -lrt -lm -ldl
+//GLFW pkg-config Requires.private
+GLFW_PKG_CONFIG_REQUIRES_PRIVATE:INTERNAL=
+//ADVANCED property for variable: MATH_LIBRARY
+MATH_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: RT_LIBRARY
+RT_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_ICE_INCLUDE_PATH
+X11_ICE_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_ICE_LIB
+X11_ICE_LIB-ADVANCED:INTERNAL=1
+//Have library /usr/lib/x86_64-linux-gnu/libX11.so
+X11_LIB_X11_SOLO:INTERNAL=1
+//ADVANCED property for variable: X11_SM_INCLUDE_PATH
+X11_SM_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_SM_LIB
+X11_SM_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_X11_INCLUDE_PATH
+X11_X11_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_X11_LIB
+X11_X11_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_XRes_INCLUDE_PATH
+X11_XRes_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_XRes_LIB
+X11_XRes_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_XShm_INCLUDE_PATH
+X11_XShm_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_XSync_INCLUDE_PATH
+X11_XSync_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xaccessrules_INCLUDE_PATH
+X11_Xaccessrules_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xaccessstr_INCLUDE_PATH
+X11_Xaccessstr_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xau_INCLUDE_PATH
+X11_Xau_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xau_LIB
+X11_Xau_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xcomposite_INCLUDE_PATH
+X11_Xcomposite_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xcomposite_LIB
+X11_Xcomposite_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xcursor_INCLUDE_PATH
+X11_Xcursor_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xcursor_LIB
+X11_Xcursor_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xdamage_INCLUDE_PATH
+X11_Xdamage_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xdamage_LIB
+X11_Xdamage_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xdmcp_INCLUDE_PATH
+X11_Xdmcp_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xdmcp_LIB
+X11_Xdmcp_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xext_INCLUDE_PATH
+X11_Xext_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xext_LIB
+X11_Xext_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xfixes_INCLUDE_PATH
+X11_Xfixes_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xfixes_LIB
+X11_Xfixes_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xft_INCLUDE_PATH
+X11_Xft_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xft_LIB
+X11_Xft_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xi_INCLUDE_PATH
+X11_Xi_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xi_LIB
+X11_Xi_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xinerama_INCLUDE_PATH
+X11_Xinerama_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xinerama_LIB
+X11_Xinerama_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xkb_INCLUDE_PATH
+X11_Xkb_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xkblib_INCLUDE_PATH
+X11_Xkblib_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xlib_INCLUDE_PATH
+X11_Xlib_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xmu_INCLUDE_PATH
+X11_Xmu_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xmu_LIB
+X11_Xmu_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xpm_INCLUDE_PATH
+X11_Xpm_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xpm_LIB
+X11_Xpm_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xrandr_INCLUDE_PATH
+X11_Xrandr_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xrandr_LIB
+X11_Xrandr_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xrender_INCLUDE_PATH
+X11_Xrender_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xrender_LIB
+X11_Xrender_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xshape_INCLUDE_PATH
+X11_Xshape_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xss_INCLUDE_PATH
+X11_Xss_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xss_LIB
+X11_Xss_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xt_INCLUDE_PATH
+X11_Xt_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xt_LIB
+X11_Xt_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xtst_INCLUDE_PATH
+X11_Xtst_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xtst_LIB
+X11_Xtst_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xutil_INCLUDE_PATH
+X11_Xutil_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xv_INCLUDE_PATH
+X11_Xv_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xv_LIB
+X11_Xv_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xxf86misc_INCLUDE_PATH
+X11_Xxf86misc_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xxf86misc_LIB
+X11_Xxf86misc_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xxf86vm_INCLUDE_PATH
+X11_Xxf86vm_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_Xxf86vm_LIB
+X11_Xxf86vm_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_dpms_INCLUDE_PATH
+X11_dpms_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xkbfile_INCLUDE_PATH
+X11_xkbfile_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: X11_xkbfile_LIB
+X11_xkbfile_LIB-ADVANCED:INTERNAL=1
 //CMAKE_INSTALL_PREFIX during last run
 _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/usr/local
 

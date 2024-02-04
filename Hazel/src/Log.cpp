@@ -2,6 +2,8 @@
 
 #include "spdlog/sinks/stdout_color_sinks.h"
 
+#include "hzpch.hpp"
+
 namespace Hazel {
 
 	std::shared_ptr<spdlog::logger> Log::s_CoreLogger;

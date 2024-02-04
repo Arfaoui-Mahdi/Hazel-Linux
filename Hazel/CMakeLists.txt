@@ -16,7 +16,13 @@ target_include_directories(${PROJECT_NAME} PUBLIC include/
                                                   .
 )
 
-target_link_libraries(${PROJECT_NAME} spdlog_header_only)
+target_link_libraries(${PROJECT_NAME} PUBLIC spdlog_header_only
+hzpch_lib
+glfw
+linux_window)
 
 add_subdirectory(vendor)
+add_subdirectory(pre_compiled_header)
+add_subdirectory(Platform/Linux)
+
 

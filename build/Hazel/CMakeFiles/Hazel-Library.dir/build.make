@@ -94,6 +94,11 @@ Hazel__Library_EXTERNAL_OBJECTS =
 Hazel/libHazel-Library.so: Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o
 Hazel/libHazel-Library.so: Hazel/CMakeFiles/Hazel-Library.dir/src/Log.cpp.o
 Hazel/libHazel-Library.so: Hazel/CMakeFiles/Hazel-Library.dir/build.make
+Hazel/libHazel-Library.so: Hazel/vendor/GLFW/src/libglfw3.a
+Hazel/libHazel-Library.so: Hazel/Platform/Linux/liblinux_window.a
+Hazel/libHazel-Library.so: Hazel/vendor/GLFW/src/libglfw3.a
+Hazel/libHazel-Library.so: /usr/lib/x86_64-linux-gnu/librt.so
+Hazel/libHazel-Library.so: /usr/lib/x86_64-linux-gnu/libm.so
 Hazel/libHazel-Library.so: Hazel/CMakeFiles/Hazel-Library.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libHazel-Library.so"
 	cd /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Hazel-Library.dir/link.txt --verbose=$(VERBOSE)

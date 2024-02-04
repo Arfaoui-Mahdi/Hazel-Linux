@@ -2,7 +2,7 @@
 
 #include "Event.h"
 
-#include <sstream>
+#include "hzpch.hpp"
 
 namespace Hazel
 {

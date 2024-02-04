@@ -1,1 +1,1 @@
-/usr/bin/g++  -g   CMakeFiles/Hazel-Executable.dir/src/Application.cpp.o  -o Hazel-Executable  -Wl,-rpath,/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel ../Hazel/libHazel-Library.so -lpthread 
+/usr/bin/g++  -g   CMakeFiles/Hazel-Executable.dir/src/Application.cpp.o  -o Hazel-Executable  -Wl,-rpath,/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel ../Hazel/libHazel-Library.so ../Hazel/Platform/Linux/liblinux_window.a ../Hazel/vendor/GLFW/src/libglfw3.a -lpthread /usr/lib/x86_64-linux-gnu/librt.so -lm -ldl 
