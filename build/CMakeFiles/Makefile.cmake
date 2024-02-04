@@ -9,6 +9,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
   "../Hazel/CMakeLists.txt"
+  "../Hazel/Logger/CMakeLists.txt"
   "../Hazel/Platform/Linux/CMakeLists.txt"
   "../Hazel/pre_compiled_header/CMakeLists.txt"
   "../Hazel/vendor/CMakeLists.txt"
@@ -78,6 +79,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "Hazel/vendor/GLFW/docs/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Hazel/pre_compiled_header/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Hazel/Platform/Linux/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Hazel/Logger/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Sandbox/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
@@ -90,5 +92,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   "Hazel/vendor/GLFW/docs/CMakeFiles/docs.dir/DependInfo.cmake"
   "Hazel/Platform/Linux/CMakeFiles/linux_window.dir/DependInfo.cmake"
+  "Hazel/Logger/CMakeFiles/Hazel-Logger.dir/DependInfo.cmake"
   "Sandbox/CMakeFiles/Hazel-Executable.dir/DependInfo.cmake"
   )

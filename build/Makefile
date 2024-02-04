@@ -248,6 +248,19 @@ linux_window/fast:
 .PHONY : linux_window/fast
 
 #=============================================================================
+# Target rules for targets named Hazel-Logger
+
+# Build rule for target.
+Hazel-Logger: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Hazel-Logger
+.PHONY : Hazel-Logger
+
+# fast build rule for target.
+Hazel-Logger/fast:
+	$(MAKE) -f Hazel/Logger/CMakeFiles/Hazel-Logger.dir/build.make Hazel/Logger/CMakeFiles/Hazel-Logger.dir/build
+.PHONY : Hazel-Logger/fast
+
+#=============================================================================
 # Target rules for targets named Hazel-Executable
 
 # Build rule for target.
@@ -279,6 +292,7 @@ help:
 	@echo "... glfw"
 	@echo "... docs"
 	@echo "... linux_window"
+	@echo "... Hazel-Logger"
 	@echo "... Hazel-Executable"
 .PHONY : help
 

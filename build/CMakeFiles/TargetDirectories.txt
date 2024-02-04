@@ -59,6 +59,13 @@
 /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/Platform/Linux/CMakeFiles/rebuild_cache.dir
 /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/Platform/Linux/CMakeFiles/edit_cache.dir
 /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/Platform/Linux/CMakeFiles/linux_window.dir
+/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/Logger/CMakeFiles/install/strip.dir
+/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/Logger/CMakeFiles/install/local.dir
+/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/Logger/CMakeFiles/install.dir
+/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/Logger/CMakeFiles/list_install_components.dir
+/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/Logger/CMakeFiles/rebuild_cache.dir
+/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/Logger/CMakeFiles/edit_cache.dir
+/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/Logger/CMakeFiles/Hazel-Logger.dir
 /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Sandbox/CMakeFiles/install/strip.dir
 /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Sandbox/CMakeFiles/install/local.dir
 /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Sandbox/CMakeFiles/install.dir

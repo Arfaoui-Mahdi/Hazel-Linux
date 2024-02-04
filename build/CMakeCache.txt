@@ -318,6 +318,12 @@ Hazel-Library_BINARY_DIR:STATIC=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/H
 Hazel-Library_SOURCE_DIR:STATIC=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Hazel
 
 //Value Computed by CMake
+Hazel-Logger_BINARY_DIR:STATIC=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/Logger
+
+//Value Computed by CMake
+Hazel-Logger_SOURCE_DIR:STATIC=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Hazel/Logger
+
+//Value Computed by CMake
 Hazel-Project_BINARY_DIR:STATIC=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build
 
 //Value Computed by CMake
@@ -762,7 +768,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=11
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

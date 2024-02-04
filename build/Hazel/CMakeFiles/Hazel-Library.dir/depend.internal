@@ -4,11 +4,11 @@
 Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o
  ../Hazel/Events/ApplicationEvent.hpp
  ../Hazel/Events/Event.hpp
+ ../Hazel/Logger/include/Log.hpp
  ../Hazel/Platform/Linux/LinuxWindow.hpp
  ../Hazel/Window.hpp
  ../Hazel/include/Application.hpp
  ../Hazel/include/Core.hpp
- ../Hazel/include/Log.hpp
  ../Hazel/pre_compiled_header/hzpch.hpp
  ../Hazel/vendor/GLFW/include/GLFW/glfw3.h
  ../Hazel/vendor/spdlog/include/spdlog/common-inl.h
@@ -55,52 +55,3 @@ Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o
  ../Hazel/vendor/spdlog/include/spdlog/tweakme.h
  ../Hazel/vendor/spdlog/include/spdlog/version.h
  /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Hazel/src/Application.cpp
-Hazel/CMakeFiles/Hazel-Library.dir/src/Log.cpp.o
- ../Hazel/include/Log.hpp
- ../Hazel/pre_compiled_header/hzpch.hpp
- ../Hazel/vendor/spdlog/include/spdlog/common-inl.h
- ../Hazel/vendor/spdlog/include/spdlog/common.h
- ../Hazel/vendor/spdlog/include/spdlog/details/backtracer-inl.h
- ../Hazel/vendor/spdlog/include/spdlog/details/backtracer.h
- ../Hazel/vendor/spdlog/include/spdlog/details/circular_q.h
- ../Hazel/vendor/spdlog/include/spdlog/details/console_globals.h
- ../Hazel/vendor/spdlog/include/spdlog/details/fmt_helper.h
- ../Hazel/vendor/spdlog/include/spdlog/details/log_msg-inl.h
- ../Hazel/vendor/spdlog/include/spdlog/details/log_msg.h
- ../Hazel/vendor/spdlog/include/spdlog/details/log_msg_buffer-inl.h
- ../Hazel/vendor/spdlog/include/spdlog/details/log_msg_buffer.h
- ../Hazel/vendor/spdlog/include/spdlog/details/null_mutex.h
- ../Hazel/vendor/spdlog/include/spdlog/details/os-inl.h
- ../Hazel/vendor/spdlog/include/spdlog/details/os.h
- ../Hazel/vendor/spdlog/include/spdlog/details/periodic_worker-inl.h
- ../Hazel/vendor/spdlog/include/spdlog/details/periodic_worker.h
- ../Hazel/vendor/spdlog/include/spdlog/details/registry-inl.h
- ../Hazel/vendor/spdlog/include/spdlog/details/registry.h
- ../Hazel/vendor/spdlog/include/spdlog/details/synchronous_factory.h
- ../Hazel/vendor/spdlog/include/spdlog/details/windows_include.h
- ../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/core.h
- ../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/format-inl.h
- ../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/format.h
- ../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/ostream.h
- ../Hazel/vendor/spdlog/include/spdlog/fmt/bundled/xchar.h
- ../Hazel/vendor/spdlog/include/spdlog/fmt/fmt.h
- ../Hazel/vendor/spdlog/include/spdlog/fmt/ostr.h
- ../Hazel/vendor/spdlog/include/spdlog/fmt/xchar.h
- ../Hazel/vendor/spdlog/include/spdlog/formatter.h
- ../Hazel/vendor/spdlog/include/spdlog/logger-inl.h
- ../Hazel/vendor/spdlog/include/spdlog/logger.h
- ../Hazel/vendor/spdlog/include/spdlog/pattern_formatter-inl.h
- ../Hazel/vendor/spdlog/include/spdlog/pattern_formatter.h
- ../Hazel/vendor/spdlog/include/spdlog/sinks/ansicolor_sink-inl.h
- ../Hazel/vendor/spdlog/include/spdlog/sinks/ansicolor_sink.h
- ../Hazel/vendor/spdlog/include/spdlog/sinks/sink-inl.h
- ../Hazel/vendor/spdlog/include/spdlog/sinks/sink.h
- ../Hazel/vendor/spdlog/include/spdlog/sinks/stdout_color_sinks-inl.h
- ../Hazel/vendor/spdlog/include/spdlog/sinks/stdout_color_sinks.h
- ../Hazel/vendor/spdlog/include/spdlog/sinks/wincolor_sink-inl.h
- ../Hazel/vendor/spdlog/include/spdlog/sinks/wincolor_sink.h
- ../Hazel/vendor/spdlog/include/spdlog/spdlog-inl.h
- ../Hazel/vendor/spdlog/include/spdlog/spdlog.h
- ../Hazel/vendor/spdlog/include/spdlog/tweakme.h
- ../Hazel/vendor/spdlog/include/spdlog/version.h
- /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Hazel/src/Log.cpp
