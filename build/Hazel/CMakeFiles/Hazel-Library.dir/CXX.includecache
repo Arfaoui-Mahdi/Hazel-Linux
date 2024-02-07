@@ -45,6 +45,8 @@ Log.hpp
 ../Hazel/include/Log.hpp
 LinuxWindow.hpp
 ../Hazel/include/LinuxWindow.hpp
+Events/ApplicationEvent.hpp
+../Hazel/include/Events/ApplicationEvent.hpp
 
 ../Hazel/include/Core.hpp
 

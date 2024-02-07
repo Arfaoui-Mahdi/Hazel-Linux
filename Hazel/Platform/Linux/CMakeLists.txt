@@ -12,7 +12,7 @@ add_library(${PROJECT_NAME} STATIC LinuxWindow.cpp)
 target_include_directories(${PROJECT_NAME} PUBLIC .
 ../../)
 
-target_link_libraries(${PROJECT_NAME} PRIVATE hzpch_lib
+target_link_libraries(${PROJECT_NAME} PRIVATE Hazel-Logger
+                                              hzpch_lib
                                               glfw
-                                              Hazel-Logger
                                               )
