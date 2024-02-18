@@ -21,6 +21,10 @@ namespace Hazel {
 		inline void SetEventCallback(const EventCallbackFn& callback) override { m_Data.EventCallback = callback; }
 		void SetVSync(bool enabled) override;
 		bool IsVSync() const override;
+
+		inline void ResizeWindow(int width, int height) override {
+			glfwMakeContextCurrent(m_Window);
+			glfwSetWindowSize(m_Window, width, height);}
 	private:
 		virtual void Init(const WindowProps& props);
 		virtual void Shutdown();

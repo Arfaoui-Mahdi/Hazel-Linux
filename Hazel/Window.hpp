@@ -37,6 +37,9 @@ namespace Hazel
         virtual void SetVSync(bool enabled) = 0;
         virtual bool IsVSync() const = 0;
 
+        // Events Hadling
+        virtual void ResizeWindow(int width, int height) = 0;
+
         static Window *Create(const WindowProps &props = WindowProps());
     };
 

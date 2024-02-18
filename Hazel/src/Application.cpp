@@ -24,7 +24,8 @@ namespace Hazel
 	void Application::OnEvent(Event& e)
 	{
 		EventDispatcher dispatcher(e);
-		dispatcher.Dispatch<WindowCloseEvent>(BIND_EVENT_FN(OnWindowClose));
+		//dispatcher.Dispatch<WindowCloseEvent>(BIND_EVENT_FN(OnWindowClose));
+		dispatcher.Dispatch<WindowResizeEvent>(BIND_EVENT_FN(OnWindowsResize));
 
 		HZ_CORE_TRACE("{0}", e);
 	}
@@ -44,5 +45,11 @@ namespace Hazel
 		m_Running = false;
 		return true;
 	}
+
+	bool Application::OnWindowsResize(WindowResizeEvent& e){
+		m_Window->ResizeWindow(1920, 1080);
+		return true;
+	}
+
 
 }
