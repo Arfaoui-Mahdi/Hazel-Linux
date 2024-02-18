@@ -201,18 +201,21 @@ Hazel/pre_compiled_header/clean:
 # Recursive "all" directory target.
 Hazel/vendor/all: Hazel/vendor/spdlog/all
 Hazel/vendor/all: Hazel/vendor/GLFW/all
+Hazel/vendor/all: Hazel/vendor/Glad/all
 
 .PHONY : Hazel/vendor/all
 
 # Recursive "preinstall" directory target.
 Hazel/vendor/preinstall: Hazel/vendor/spdlog/preinstall
 Hazel/vendor/preinstall: Hazel/vendor/GLFW/preinstall
+Hazel/vendor/preinstall: Hazel/vendor/Glad/preinstall
 
 .PHONY : Hazel/vendor/preinstall
 
 # Recursive "clean" directory target.
 Hazel/vendor/clean: Hazel/vendor/spdlog/clean
 Hazel/vendor/clean: Hazel/vendor/GLFW/clean
+Hazel/vendor/clean: Hazel/vendor/Glad/clean
 
 .PHONY : Hazel/vendor/clean
 
@@ -276,6 +279,24 @@ Hazel/vendor/GLFW/src/clean: Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/clean
 .PHONY : Hazel/vendor/GLFW/src/clean
 
 #=============================================================================
+# Directory level rules for directory Hazel/vendor/Glad
+
+# Recursive "all" directory target.
+Hazel/vendor/Glad/all: Hazel/vendor/Glad/CMakeFiles/Glad.dir/all
+
+.PHONY : Hazel/vendor/Glad/all
+
+# Recursive "preinstall" directory target.
+Hazel/vendor/Glad/preinstall:
+
+.PHONY : Hazel/vendor/Glad/preinstall
+
+# Recursive "clean" directory target.
+Hazel/vendor/Glad/clean: Hazel/vendor/Glad/CMakeFiles/Glad.dir/clean
+
+.PHONY : Hazel/vendor/Glad/clean
+
+#=============================================================================
 # Directory level rules for directory Hazel/vendor/spdlog
 
 # Recursive "all" directory target.
@@ -316,17 +337,18 @@ Sandbox/clean: Sandbox/CMakeFiles/Hazel-Executable.dir/clean
 
 # All Build rule for target.
 Hazel/CMakeFiles/Hazel-Library.dir/all: Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/all
+Hazel/CMakeFiles/Hazel-Library.dir/all: Hazel/vendor/Glad/CMakeFiles/Glad.dir/all
 Hazel/CMakeFiles/Hazel-Library.dir/all: Hazel/Platform/Linux/CMakeFiles/linux_window.dir/all
 Hazel/CMakeFiles/Hazel-Library.dir/all: Hazel/Logger/CMakeFiles/Hazel-Logger.dir/all
 Hazel/CMakeFiles/Hazel-Library.dir/all: Hazel/Layers/CMakeFiles/Hazel-layers.dir/all
 	$(MAKE) -f Hazel/CMakeFiles/Hazel-Library.dir/build.make Hazel/CMakeFiles/Hazel-Library.dir/depend
 	$(MAKE) -f Hazel/CMakeFiles/Hazel-Library.dir/build.make Hazel/CMakeFiles/Hazel-Library.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles --progress-num=3,4 "Built target Hazel-Library"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles --progress-num=5,6 "Built target Hazel-Library"
 .PHONY : Hazel/CMakeFiles/Hazel-Library.dir/all
 
 # Build rule for subdir invocation for target.
 Hazel/CMakeFiles/Hazel-Library.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles 33
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles 35
 	$(MAKE) -f CMakeFiles/Makefile2 Hazel/CMakeFiles/Hazel-Library.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles 0
 .PHONY : Hazel/CMakeFiles/Hazel-Library.dir/rule
@@ -348,7 +370,7 @@ Hazel/CMakeFiles/Hazel-Library.dir/clean:
 Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/all:
 	$(MAKE) -f Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/build.make Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/depend
 	$(MAKE) -f Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/build.make Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles --progress-num=37,38,39,40,41,42,43,44 "Built target spdlog"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles --progress-num=39,40,41,42,43,44,45,46 "Built target spdlog"
 .PHONY : Hazel/vendor/spdlog/CMakeFiles/spdlog.dir/all
 
 # Build rule for subdir invocation for target.
@@ -402,7 +424,7 @@ Hazel/vendor/GLFW/CMakeFiles/uninstall.dir/clean:
 Hazel/vendor/GLFW/src/CMakeFiles/update_mappings.dir/all:
 	$(MAKE) -f Hazel/vendor/GLFW/src/CMakeFiles/update_mappings.dir/build.make Hazel/vendor/GLFW/src/CMakeFiles/update_mappings.dir/depend
 	$(MAKE) -f Hazel/vendor/GLFW/src/CMakeFiles/update_mappings.dir/build.make Hazel/vendor/GLFW/src/CMakeFiles/update_mappings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles --progress-num=45 "Built target update_mappings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles --progress-num=47 "Built target update_mappings"
 .PHONY : Hazel/vendor/GLFW/src/CMakeFiles/update_mappings.dir/all
 
 # Build rule for subdir invocation for target.
@@ -429,7 +451,7 @@ Hazel/vendor/GLFW/src/CMakeFiles/update_mappings.dir/clean:
 Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) -f Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/build.make Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) -f Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/build.make Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles --progress-num=11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles --progress-num=13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36 "Built target glfw"
 .PHONY : Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
@@ -456,7 +478,7 @@ Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/clean:
 Hazel/vendor/GLFW/docs/CMakeFiles/docs.dir/all:
 	$(MAKE) -f Hazel/vendor/GLFW/docs/CMakeFiles/docs.dir/build.make Hazel/vendor/GLFW/docs/CMakeFiles/docs.dir/depend
 	$(MAKE) -f Hazel/vendor/GLFW/docs/CMakeFiles/docs.dir/build.make Hazel/vendor/GLFW/docs/CMakeFiles/docs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles --progress-num=10 "Built target docs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles --progress-num=12 "Built target docs"
 .PHONY : Hazel/vendor/GLFW/docs/CMakeFiles/docs.dir/all
 
 # Build rule for subdir invocation for target.
@@ -477,19 +499,47 @@ Hazel/vendor/GLFW/docs/CMakeFiles/docs.dir/clean:
 .PHONY : Hazel/vendor/GLFW/docs/CMakeFiles/docs.dir/clean
 
 #=============================================================================
+# Target rules for target Hazel/vendor/Glad/CMakeFiles/Glad.dir
+
+# All Build rule for target.
+Hazel/vendor/Glad/CMakeFiles/Glad.dir/all:
+	$(MAKE) -f Hazel/vendor/Glad/CMakeFiles/Glad.dir/build.make Hazel/vendor/Glad/CMakeFiles/Glad.dir/depend
+	$(MAKE) -f Hazel/vendor/Glad/CMakeFiles/Glad.dir/build.make Hazel/vendor/Glad/CMakeFiles/Glad.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles --progress-num=1,2 "Built target Glad"
+.PHONY : Hazel/vendor/Glad/CMakeFiles/Glad.dir/all
+
+# Build rule for subdir invocation for target.
+Hazel/vendor/Glad/CMakeFiles/Glad.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 Hazel/vendor/Glad/CMakeFiles/Glad.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles 0
+.PHONY : Hazel/vendor/Glad/CMakeFiles/Glad.dir/rule
+
+# Convenience name for target.
+Glad: Hazel/vendor/Glad/CMakeFiles/Glad.dir/rule
+
+.PHONY : Glad
+
+# clean rule for target.
+Hazel/vendor/Glad/CMakeFiles/Glad.dir/clean:
+	$(MAKE) -f Hazel/vendor/Glad/CMakeFiles/Glad.dir/build.make Hazel/vendor/Glad/CMakeFiles/Glad.dir/clean
+.PHONY : Hazel/vendor/Glad/CMakeFiles/Glad.dir/clean
+
+#=============================================================================
 # Target rules for target Hazel/Platform/Linux/CMakeFiles/linux_window.dir
 
 # All Build rule for target.
 Hazel/Platform/Linux/CMakeFiles/linux_window.dir/all: Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/all
+Hazel/Platform/Linux/CMakeFiles/linux_window.dir/all: Hazel/vendor/Glad/CMakeFiles/Glad.dir/all
 Hazel/Platform/Linux/CMakeFiles/linux_window.dir/all: Hazel/Logger/CMakeFiles/Hazel-Logger.dir/all
 	$(MAKE) -f Hazel/Platform/Linux/CMakeFiles/linux_window.dir/build.make Hazel/Platform/Linux/CMakeFiles/linux_window.dir/depend
 	$(MAKE) -f Hazel/Platform/Linux/CMakeFiles/linux_window.dir/build.make Hazel/Platform/Linux/CMakeFiles/linux_window.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles --progress-num=35,36 "Built target linux_window"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles --progress-num=37,38 "Built target linux_window"
 .PHONY : Hazel/Platform/Linux/CMakeFiles/linux_window.dir/all
 
 # Build rule for subdir invocation for target.
 Hazel/Platform/Linux/CMakeFiles/linux_window.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles 28
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles 30
 	$(MAKE) -f CMakeFiles/Makefile2 Hazel/Platform/Linux/CMakeFiles/linux_window.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles 0
 .PHONY : Hazel/Platform/Linux/CMakeFiles/linux_window.dir/rule
@@ -511,7 +561,7 @@ Hazel/Platform/Linux/CMakeFiles/linux_window.dir/clean:
 Hazel/Logger/CMakeFiles/Hazel-Logger.dir/all:
 	$(MAKE) -f Hazel/Logger/CMakeFiles/Hazel-Logger.dir/build.make Hazel/Logger/CMakeFiles/Hazel-Logger.dir/depend
 	$(MAKE) -f Hazel/Logger/CMakeFiles/Hazel-Logger.dir/build.make Hazel/Logger/CMakeFiles/Hazel-Logger.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles --progress-num=5,6 "Built target Hazel-Logger"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles --progress-num=7,8 "Built target Hazel-Logger"
 .PHONY : Hazel/Logger/CMakeFiles/Hazel-Logger.dir/all
 
 # Build rule for subdir invocation for target.
@@ -538,7 +588,7 @@ Hazel/Logger/CMakeFiles/Hazel-Logger.dir/clean:
 Hazel/Layers/CMakeFiles/Hazel-layers.dir/all: Hazel/Logger/CMakeFiles/Hazel-Logger.dir/all
 	$(MAKE) -f Hazel/Layers/CMakeFiles/Hazel-layers.dir/build.make Hazel/Layers/CMakeFiles/Hazel-layers.dir/depend
 	$(MAKE) -f Hazel/Layers/CMakeFiles/Hazel-layers.dir/build.make Hazel/Layers/CMakeFiles/Hazel-layers.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles --progress-num=7,8,9 "Built target Hazel-layers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles --progress-num=9,10,11 "Built target Hazel-layers"
 .PHONY : Hazel/Layers/CMakeFiles/Hazel-layers.dir/all
 
 # Build rule for subdir invocation for target.
@@ -564,17 +614,18 @@ Hazel/Layers/CMakeFiles/Hazel-layers.dir/clean:
 # All Build rule for target.
 Sandbox/CMakeFiles/Hazel-Executable.dir/all: Hazel/CMakeFiles/Hazel-Library.dir/all
 Sandbox/CMakeFiles/Hazel-Executable.dir/all: Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/all
+Sandbox/CMakeFiles/Hazel-Executable.dir/all: Hazel/vendor/Glad/CMakeFiles/Glad.dir/all
 Sandbox/CMakeFiles/Hazel-Executable.dir/all: Hazel/Platform/Linux/CMakeFiles/linux_window.dir/all
 Sandbox/CMakeFiles/Hazel-Executable.dir/all: Hazel/Logger/CMakeFiles/Hazel-Logger.dir/all
 Sandbox/CMakeFiles/Hazel-Executable.dir/all: Hazel/Layers/CMakeFiles/Hazel-layers.dir/all
 	$(MAKE) -f Sandbox/CMakeFiles/Hazel-Executable.dir/build.make Sandbox/CMakeFiles/Hazel-Executable.dir/depend
 	$(MAKE) -f Sandbox/CMakeFiles/Hazel-Executable.dir/build.make Sandbox/CMakeFiles/Hazel-Executable.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles --progress-num=1,2 "Built target Hazel-Executable"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles --progress-num=3,4 "Built target Hazel-Executable"
 .PHONY : Sandbox/CMakeFiles/Hazel-Executable.dir/all
 
 # Build rule for subdir invocation for target.
 Sandbox/CMakeFiles/Hazel-Executable.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles 35
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles 37
 	$(MAKE) -f CMakeFiles/Makefile2 Sandbox/CMakeFiles/Hazel-Executable.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles 0
 .PHONY : Sandbox/CMakeFiles/Hazel-Executable.dir/rule

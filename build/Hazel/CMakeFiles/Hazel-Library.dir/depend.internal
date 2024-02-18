@@ -13,6 +13,8 @@ Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o
  ../Hazel/include/Core.hpp
  ../Hazel/pre_compiled_header/hzpch.hpp
  ../Hazel/vendor/GLFW/include/GLFW/glfw3.h
+ ../Hazel/vendor/Glad/include/KHR/khrplatform.h
+ ../Hazel/vendor/Glad/include/glad/glad.h
  ../Hazel/vendor/spdlog/include/spdlog/common-inl.h
  ../Hazel/vendor/spdlog/include/spdlog/common.h
  ../Hazel/vendor/spdlog/include/spdlog/details/backtracer-inl.h

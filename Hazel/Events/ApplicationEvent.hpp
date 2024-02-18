@@ -2,8 +2,6 @@
 
 #include "Event.hpp"
 
-#include "hzpch.hpp"
-
 namespace Hazel
 {
 

@@ -46,6 +46,13 @@
 /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/vendor/GLFW/docs/CMakeFiles/rebuild_cache.dir
 /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/vendor/GLFW/docs/CMakeFiles/edit_cache.dir
 /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/vendor/GLFW/docs/CMakeFiles/docs.dir
+/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/vendor/Glad/CMakeFiles/install/strip.dir
+/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/vendor/Glad/CMakeFiles/install/local.dir
+/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/vendor/Glad/CMakeFiles/install.dir
+/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/vendor/Glad/CMakeFiles/list_install_components.dir
+/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/vendor/Glad/CMakeFiles/rebuild_cache.dir
+/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/vendor/Glad/CMakeFiles/edit_cache.dir
+/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/vendor/Glad/CMakeFiles/Glad.dir
 /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/pre_compiled_header/CMakeFiles/install/strip.dir
 /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/pre_compiled_header/CMakeFiles/install/local.dir
 /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/pre_compiled_header/CMakeFiles/edit_cache.dir

@@ -12,6 +12,8 @@ Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o: ../Hazel/include/Appli
 Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o: ../Hazel/include/Core.hpp
 Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o: ../Hazel/pre_compiled_header/hzpch.hpp
 Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o: ../Hazel/vendor/GLFW/include/GLFW/glfw3.h
+Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o: ../Hazel/vendor/Glad/include/KHR/khrplatform.h
+Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o: ../Hazel/vendor/Glad/include/glad/glad.h
 Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o: ../Hazel/vendor/spdlog/include/spdlog/common-inl.h
 Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o: ../Hazel/vendor/spdlog/include/spdlog/common.h
 Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o: ../Hazel/vendor/spdlog/include/spdlog/details/backtracer-inl.h

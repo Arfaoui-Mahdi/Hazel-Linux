@@ -9,8 +9,6 @@
 ../Hazel/Events/ApplicationEvent.hpp
 Event.hpp
 ../Hazel/Events/Event.hpp
-hzpch.hpp
-../Hazel/Events/hzpch.hpp
 
 ../Hazel/Events/Event.hpp
 ../include/Core.hpp
@@ -39,8 +37,6 @@ spdlog/fmt/ostr.h
 ../Hazel/Platform/Linux/LinuxWindow.hpp
 Window.hpp
 ../Hazel/Platform/Linux/Window.hpp
-GLFW/glfw3.h
--
 
 ../Hazel/Window.hpp
 include/Core.hpp
@@ -128,6 +124,18 @@ OpenGL/gl.h
 GL/gl.h
 -
 GL/glext.h
+-
+
+../Hazel/vendor/Glad/include/KHR/khrplatform.h
+stdint.h
+-
+inttypes.h
+-
+stdint.h
+-
+
+../Hazel/vendor/Glad/include/glad/glad.h
+KHR/khrplatform.h
 -
 
 ../Hazel/vendor/spdlog/include/spdlog/common-inl.h
@@ -727,6 +735,8 @@ ApplicationEvent.hpp
 /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Hazel/src/ApplicationEvent.hpp
 hzpch.hpp
 /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Hazel/src/hzpch.hpp
+glad/glad.h
+/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Hazel/src/glad/glad.h
 GLFW/glfw3.h
 -
 GL/gl.h

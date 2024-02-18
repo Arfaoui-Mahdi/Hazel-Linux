@@ -60,15 +60,15 @@ include Sandbox/CMakeFiles/Hazel-Executable.dir/flags.make
 Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o: Sandbox/CMakeFiles/Hazel-Executable.dir/flags.make
 Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o: ../Sandbox/src/SanboxApp.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o"
-	cd /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Sandbox && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o -c /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Sandbox/src/SanboxApp.cpp
+	cd /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Sandbox && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o -c /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Sandbox/src/SanboxApp.cpp
 
 Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.i"
-	cd /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Sandbox && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Sandbox/src/SanboxApp.cpp > CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.i
+	cd /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Sandbox && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Sandbox/src/SanboxApp.cpp > CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.i
 
 Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.s"
-	cd /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Sandbox && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Sandbox/src/SanboxApp.cpp -o CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.s
+	cd /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Sandbox && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Sandbox/src/SanboxApp.cpp -o CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.s
 
 # Object files for target Hazel-Executable
 Hazel__Executable_OBJECTS = \
@@ -86,6 +86,7 @@ Sandbox/Hazel-Executable: /usr/lib/x86_64-linux-gnu/librt.so
 Sandbox/Hazel-Executable: /usr/lib/x86_64-linux-gnu/libm.so
 Sandbox/Hazel-Executable: Hazel/Layers/libHazel-layers.a
 Sandbox/Hazel-Executable: Hazel/Logger/libHazel-Logger.so
+Sandbox/Hazel-Executable: Hazel/vendor/Glad/libGlad.so
 Sandbox/Hazel-Executable: Sandbox/CMakeFiles/Hazel-Executable.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Hazel-Executable"
 	cd /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Sandbox && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Hazel-Executable.dir/link.txt --verbose=$(VERBOSE)

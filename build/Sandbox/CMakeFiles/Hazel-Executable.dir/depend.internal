@@ -14,7 +14,6 @@ Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o
  ../Hazel/include/Core.hpp
  ../Hazel/include/EmtryPoint.hpp
  ../Hazel/pre_compiled_header/hzpch.hpp
- ../Hazel/vendor/GLFW/include/GLFW/glfw3.h
  ../Hazel/vendor/spdlog/include/spdlog/common-inl.h
  ../Hazel/vendor/spdlog/include/spdlog/common.h
  ../Hazel/vendor/spdlog/include/spdlog/details/backtracer-inl.h

@@ -235,6 +235,19 @@ docs/fast:
 .PHONY : docs/fast
 
 #=============================================================================
+# Target rules for targets named Glad
+
+# Build rule for target.
+Glad: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Glad
+.PHONY : Glad
+
+# fast build rule for target.
+Glad/fast:
+	$(MAKE) -f Hazel/vendor/Glad/CMakeFiles/Glad.dir/build.make Hazel/vendor/Glad/CMakeFiles/Glad.dir/build
+.PHONY : Glad/fast
+
+#=============================================================================
 # Target rules for targets named linux_window
 
 # Build rule for target.
@@ -304,6 +317,7 @@ help:
 	@echo "... update_mappings"
 	@echo "... glfw"
 	@echo "... docs"
+	@echo "... Glad"
 	@echo "... linux_window"
 	@echo "... Hazel-Logger"
 	@echo "... Hazel-layers"
