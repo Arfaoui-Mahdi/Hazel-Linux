@@ -18,6 +18,16 @@ hzpch.hpp
 hzpch.hpp
 ../Hazel/Events/hzpch.hpp
 
+../Hazel/Layers/include/Layer.hpp
+Event.hpp
+../Hazel/Layers/include/Event.hpp
+
+../Hazel/Layers/include/LayerStack.hpp
+Layer.hpp
+../Hazel/Layers/include/Layer.hpp
+vector
+-
+
 ../Hazel/Logger/include/Log.hpp
 memory
 -
@@ -45,6 +55,8 @@ Log.hpp
 ../Hazel/include/Log.hpp
 LinuxWindow.hpp
 ../Hazel/include/LinuxWindow.hpp
+LayerStack.hpp
+../Hazel/include/LayerStack.hpp
 Events/ApplicationEvent.hpp
 ../Hazel/include/Events/ApplicationEvent.hpp
 

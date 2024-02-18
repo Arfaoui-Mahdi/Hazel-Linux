@@ -42,7 +42,7 @@ namespace Hazel
     };
 
 #define EVENT_CLASS_TYPE(type)                                                  \
-    static EventType GetStaticType() { return EventType::type; }              \
+    static EventType GetStaticType() { return EventType::type; }                \
     virtual EventType GetEventType() const override { return GetStaticType(); } \
     virtual const char *GetName() const override { return #type; }
 
@@ -51,9 +51,9 @@ namespace Hazel
 
     class Event
     {
-        friend class EventDispatcher;
-
     public:
+        bool Handled = false;
+
         virtual EventType GetEventType() const = 0;
         virtual const char *GetName() const = 0;
         virtual int GetCategoryFlags() const = 0;
@@ -63,9 +63,6 @@ namespace Hazel
         {
             return GetCategoryFlags() & category;
         }
-
-    protected:
-        bool m_Handled = false;
     };
 
     class EventDispatcher
@@ -84,7 +81,7 @@ namespace Hazel
         {
             if (m_Event.GetEventType() == T::GetStaticType())
             {
-                m_Event.m_Handled = func(*(T *)&m_Event);
+                m_Event.Handled = func(*(T *)&m_Event);
                 return true;
             }
             return false;

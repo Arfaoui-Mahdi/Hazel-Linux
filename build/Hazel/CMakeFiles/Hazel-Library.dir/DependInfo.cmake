@@ -16,7 +16,6 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../Hazel/include"
-  "../Hazel/Events"
   "../Hazel/."
   "../Hazel/Logger/include"
   "../Hazel/vendor/spdlog/include"
@@ -24,12 +23,15 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../Hazel/vendor/GLFW/include"
   "../Hazel/Platform/Linux/."
   "../Hazel/Platform/Linux/../.."
+  "../Hazel/Layers/include"
+  "../Hazel/Events/."
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/vendor/GLFW/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   "/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/Platform/Linux/CMakeFiles/linux_window.dir/DependInfo.cmake"
+  "/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/Layers/CMakeFiles/Hazel-layers.dir/DependInfo.cmake"
   "/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/Logger/CMakeFiles/Hazel-Logger.dir/DependInfo.cmake"
   )
 

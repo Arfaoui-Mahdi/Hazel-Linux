@@ -12,18 +12,21 @@ add_library(${PROJECT_NAME} SHARED src/Application.cpp
                                   )
 
 target_include_directories(${PROJECT_NAME} PUBLIC include/ 
-                                                  Events/
                                                   .
 )
 
 target_link_libraries(${PROJECT_NAME} PUBLIC Hazel-Logger
 hzpch_lib
 glfw
-linux_window)
+linux_window
+Hazel-layers
+Hazel-events)
 
 add_subdirectory(vendor)
 add_subdirectory(pre_compiled_header)
 add_subdirectory(Platform/Linux)
 add_subdirectory(Logger)
+add_subdirectory(Layers)
+add_subdirectory(Events)
 
 

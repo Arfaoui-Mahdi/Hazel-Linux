@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Hazel-Executable.dir/src/Application.cpp.o"
+  "CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o"
   "Hazel-Executable"
   "Hazel-Executable.pdb"
 )

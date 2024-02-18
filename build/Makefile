@@ -261,6 +261,19 @@ Hazel-Logger/fast:
 .PHONY : Hazel-Logger/fast
 
 #=============================================================================
+# Target rules for targets named Hazel-layers
+
+# Build rule for target.
+Hazel-layers: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Hazel-layers
+.PHONY : Hazel-layers
+
+# fast build rule for target.
+Hazel-layers/fast:
+	$(MAKE) -f Hazel/Layers/CMakeFiles/Hazel-layers.dir/build.make Hazel/Layers/CMakeFiles/Hazel-layers.dir/build
+.PHONY : Hazel-layers/fast
+
+#=============================================================================
 # Target rules for targets named Hazel-Executable
 
 # Build rule for target.
@@ -293,6 +306,7 @@ help:
 	@echo "... docs"
 	@echo "... linux_window"
 	@echo "... Hazel-Logger"
+	@echo "... Hazel-layers"
 	@echo "... Hazel-Executable"
 .PHONY : help
 

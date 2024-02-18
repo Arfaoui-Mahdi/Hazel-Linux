@@ -171,32 +171,32 @@ Hazel-Executable/fast:
 	cd /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build && $(MAKE) -f Sandbox/CMakeFiles/Hazel-Executable.dir/build.make Sandbox/CMakeFiles/Hazel-Executable.dir/build
 .PHONY : Hazel-Executable/fast
 
-src/Application.o: src/Application.cpp.o
+src/SanboxApp.o: src/SanboxApp.cpp.o
 
-.PHONY : src/Application.o
+.PHONY : src/SanboxApp.o
 
 # target to build an object file
-src/Application.cpp.o:
-	cd /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build && $(MAKE) -f Sandbox/CMakeFiles/Hazel-Executable.dir/build.make Sandbox/CMakeFiles/Hazel-Executable.dir/src/Application.cpp.o
-.PHONY : src/Application.cpp.o
+src/SanboxApp.cpp.o:
+	cd /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build && $(MAKE) -f Sandbox/CMakeFiles/Hazel-Executable.dir/build.make Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o
+.PHONY : src/SanboxApp.cpp.o
 
-src/Application.i: src/Application.cpp.i
+src/SanboxApp.i: src/SanboxApp.cpp.i
 
-.PHONY : src/Application.i
+.PHONY : src/SanboxApp.i
 
 # target to preprocess a source file
-src/Application.cpp.i:
-	cd /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build && $(MAKE) -f Sandbox/CMakeFiles/Hazel-Executable.dir/build.make Sandbox/CMakeFiles/Hazel-Executable.dir/src/Application.cpp.i
-.PHONY : src/Application.cpp.i
+src/SanboxApp.cpp.i:
+	cd /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build && $(MAKE) -f Sandbox/CMakeFiles/Hazel-Executable.dir/build.make Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.i
+.PHONY : src/SanboxApp.cpp.i
 
-src/Application.s: src/Application.cpp.s
+src/SanboxApp.s: src/SanboxApp.cpp.s
 
-.PHONY : src/Application.s
+.PHONY : src/SanboxApp.s
 
 # target to generate assembly for a file
-src/Application.cpp.s:
-	cd /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build && $(MAKE) -f Sandbox/CMakeFiles/Hazel-Executable.dir/build.make Sandbox/CMakeFiles/Hazel-Executable.dir/src/Application.cpp.s
-.PHONY : src/Application.cpp.s
+src/SanboxApp.cpp.s:
+	cd /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build && $(MAKE) -f Sandbox/CMakeFiles/Hazel-Executable.dir/build.make Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.s
+.PHONY : src/SanboxApp.cpp.s
 
 # Help Target
 help:
@@ -211,9 +211,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Hazel-Executable"
-	@echo "... src/Application.o"
-	@echo "... src/Application.i"
-	@echo "... src/Application.s"
+	@echo "... src/SanboxApp.o"
+	@echo "... src/SanboxApp.i"
+	@echo "... src/SanboxApp.s"
 .PHONY : help
 
 
