@@ -83,6 +83,7 @@ Hazel/libHazel-Library.so: Hazel/vendor/GLFW/src/libglfw3.a
 Hazel/libHazel-Library.so: Hazel/Platform/Linux/liblinux_window.a
 Hazel/libHazel-Library.so: Hazel/Layers/libHazel-layers.a
 Hazel/libHazel-Library.so: Hazel/vendor/Glad/libGlad.so
+Hazel/libHazel-Library.so: Hazel/vendor/imgui/libimGUI.so
 Hazel/libHazel-Library.so: Hazel/vendor/GLFW/src/libglfw3.a
 Hazel/libHazel-Library.so: /usr/lib/x86_64-linux-gnu/librt.so
 Hazel/libHazel-Library.so: /usr/lib/x86_64-linux-gnu/libm.so

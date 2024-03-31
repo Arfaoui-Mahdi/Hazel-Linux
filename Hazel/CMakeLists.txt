@@ -23,7 +23,8 @@ glfw
 linux_window
 Hazel-layers
 Hazel-events
-Glad)
+Glad
+imGUI)
 
 add_subdirectory(vendor)
 add_subdirectory(pre_compiled_header)

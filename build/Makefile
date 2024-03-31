@@ -248,6 +248,19 @@ Glad/fast:
 .PHONY : Glad/fast
 
 #=============================================================================
+# Target rules for targets named imGUI
+
+# Build rule for target.
+imGUI: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 imGUI
+.PHONY : imGUI
+
+# fast build rule for target.
+imGUI/fast:
+	$(MAKE) -f Hazel/vendor/imgui/CMakeFiles/imGUI.dir/build.make Hazel/vendor/imgui/CMakeFiles/imGUI.dir/build
+.PHONY : imGUI/fast
+
+#=============================================================================
 # Target rules for targets named linux_window
 
 # Build rule for target.
@@ -318,6 +331,7 @@ help:
 	@echo "... glfw"
 	@echo "... docs"
 	@echo "... Glad"
+	@echo "... imGUI"
 	@echo "... linux_window"
 	@echo "... Hazel-Logger"
 	@echo "... Hazel-layers"

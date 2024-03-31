@@ -12,3 +12,4 @@ Hazel/CMakeFiles/Hazel-Library.dir/
 *.cmake
 *.make
 Makefile
+build/*
