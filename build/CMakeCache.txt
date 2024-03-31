@@ -318,10 +318,10 @@ Hazel-Executable_BINARY_DIR:STATIC=/home/mahdi/Desktop/Workspace/GameEngine-Haze
 Hazel-Executable_SOURCE_DIR:STATIC=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Sandbox
 
 //Value Computed by CMake
-Hazel-Library_BINARY_DIR:STATIC=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel
+Hazel-Library_BINARY_DIR:STATIC=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/Platform
 
 //Value Computed by CMake
-Hazel-Library_SOURCE_DIR:STATIC=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Hazel
+Hazel-Library_SOURCE_DIR:STATIC=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Hazel/Platform
 
 //Value Computed by CMake
 Hazel-Logger_BINARY_DIR:STATIC=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/Logger
@@ -349,6 +349,12 @@ Hazel-layers_SOURCE_DIR:STATIC=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Ha
 
 //Path to a library.
 MATH_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libm.so
+
+//Value Computed by CMake
+OpenGL_Commands_BINARY_DIR:STATIC=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/Platform/OpenGL
+
+//Value Computed by CMake
+OpenGL_Commands_SOURCE_DIR:STATIC=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Hazel/Platform/OpenGL
 
 //Path to a library.
 RT_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/librt.so
@@ -628,6 +634,12 @@ imGUI_BINARY_DIR:STATIC=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Lin
 imGUI_SOURCE_DIR:STATIC=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Hazel/vendor/imgui
 
 //Value Computed by CMake
+imGui_Layer_BINARY_DIR:STATIC=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/imGui
+
+//Value Computed by CMake
+imGui_Layer_SOURCE_DIR:STATIC=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Hazel/imGui
+
+//Value Computed by CMake
 linux_window_BINARY_DIR:STATIC=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/Platform/Linux
 
 //Value Computed by CMake
@@ -792,7 +804,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=15
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=18
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

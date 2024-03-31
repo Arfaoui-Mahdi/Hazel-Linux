@@ -1,6 +1,5 @@
 #pragma once
 
-
 #include <memory>
 
 #include "Log.hpp"
@@ -9,27 +8,33 @@
 
 #include "Events/ApplicationEvent.hpp"
 
-namespace Hazel {
+namespace Hazel
+{
 
-    class Application {
-        public:
-            Application();
-            virtual ~Application();
+    class Application
+    {
+    public:
+        Application();
+        virtual ~Application();
 
-            void Run();
+        void Run();
 
-            void OnEvent(Event& e);
+        void OnEvent(Event &e);
 
-            void PushLayer(Layer* layer);
-		    void PushOverlay(Layer* layer);
+        void PushLayer(Layer *layer);
+        void PushOverlay(Layer *layer);
 
-        private:
-            bool OnWindowClose(WindowCloseEvent& e);
-            std::unique_ptr<Window> m_Window;
-            bool m_Running = true;
-            LayerStack m_LayerStack;
+        inline Window &GetWindow() { return *m_Window; }
 
-            
+        inline static Application &Get() { return *s_Instance; }
+
+    private:
+        bool OnWindowClose(WindowCloseEvent &e);
+        std::unique_ptr<Window> m_Window;
+        bool m_Running = true;
+        LayerStack m_LayerStack;
+
+        static Application *s_Instance;
     };
 
     std::unique_ptr<Application> CreateApplication();

@@ -23,6 +23,8 @@ string
 -
 vector
 -
+imGui/ImGuiLayer.h
+../Hazel/imGui/ImGuiLayer.h
 include/Application.hpp
 ../Hazel/include/Application.hpp
 include/EmtryPoint.hpp
@@ -59,6 +61,10 @@ include/Core.hpp
 ../Hazel/include/Core.hpp
 Events/Event.hpp
 ../Hazel/Events/Event.hpp
+
+../Hazel/imGui/ImGuiLayer.h
+Layer.hpp
+../Hazel/imGui/Layer.hpp
 
 ../Hazel/include/Application.hpp
 memory

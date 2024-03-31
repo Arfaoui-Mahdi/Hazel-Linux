@@ -13,4 +13,5 @@ add_library(${PROJECT_NAME} SHARED src/imgui_demo.cpp
                                    src/imgui_widgets.cpp
                                    src/imgui.cpp)
 
-target_include_directories(${PROJECT_NAME} PUBLIC include/)
+target_include_directories(${PROJECT_NAME} PUBLIC include/
+                                                  backends)

@@ -24,13 +24,15 @@ linux_window
 Hazel-layers
 Hazel-events
 Glad
-imGUI)
+imGUI
+imGui_Layer)
 
 add_subdirectory(vendor)
 add_subdirectory(pre_compiled_header)
-add_subdirectory(Platform/Linux)
+add_subdirectory(Platform)
 add_subdirectory(Logger)
 add_subdirectory(Layers)
 add_subdirectory(Events)
+add_subdirectory(imGui)
 
 

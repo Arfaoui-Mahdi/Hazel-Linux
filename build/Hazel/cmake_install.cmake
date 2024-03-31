@@ -49,7 +49,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/Platform/Linux/cmake_install.cmake")
+  include("/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/Platform/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
@@ -65,5 +65,10 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
   include("/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/Events/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/imGui/cmake_install.cmake")
 endif()
 

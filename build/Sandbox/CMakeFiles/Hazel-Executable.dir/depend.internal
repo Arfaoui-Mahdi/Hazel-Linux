@@ -10,6 +10,7 @@ Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o
  ../Hazel/Logger/include/Log.hpp
  ../Hazel/Platform/Linux/LinuxWindow.hpp
  ../Hazel/Window.hpp
+ ../Hazel/imGui/ImGuiLayer.h
  ../Hazel/include/Application.hpp
  ../Hazel/include/Core.hpp
  ../Hazel/include/EmtryPoint.hpp

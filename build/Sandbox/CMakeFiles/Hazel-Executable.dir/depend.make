@@ -9,6 +9,7 @@ Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o: ../Hazel/Layers/inc
 Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o: ../Hazel/Logger/include/Log.hpp
 Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o: ../Hazel/Platform/Linux/LinuxWindow.hpp
 Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o: ../Hazel/Window.hpp
+Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o: ../Hazel/imGui/ImGuiLayer.h
 Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o: ../Hazel/include/Application.hpp
 Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o: ../Hazel/include/Core.hpp
 Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o: ../Hazel/include/EmtryPoint.hpp

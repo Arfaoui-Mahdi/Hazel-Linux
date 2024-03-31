@@ -7,6 +7,9 @@
 #include <vector>
 
 
+#include "imGui/ImGuiLayer.h"
+
+
 // Hazel includes
 #include "include/Application.hpp"
 #include "include/EmtryPoint.hpp" /* Entry Point */

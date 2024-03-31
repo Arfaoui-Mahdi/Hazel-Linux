@@ -261,6 +261,19 @@ imGUI/fast:
 .PHONY : imGUI/fast
 
 #=============================================================================
+# Target rules for targets named OpenGL_Commands
+
+# Build rule for target.
+OpenGL_Commands: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OpenGL_Commands
+.PHONY : OpenGL_Commands
+
+# fast build rule for target.
+OpenGL_Commands/fast:
+	$(MAKE) -f Hazel/Platform/OpenGL/CMakeFiles/OpenGL_Commands.dir/build.make Hazel/Platform/OpenGL/CMakeFiles/OpenGL_Commands.dir/build
+.PHONY : OpenGL_Commands/fast
+
+#=============================================================================
 # Target rules for targets named linux_window
 
 # Build rule for target.
@@ -300,6 +313,19 @@ Hazel-layers/fast:
 .PHONY : Hazel-layers/fast
 
 #=============================================================================
+# Target rules for targets named imGui_Layer
+
+# Build rule for target.
+imGui_Layer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 imGui_Layer
+.PHONY : imGui_Layer
+
+# fast build rule for target.
+imGui_Layer/fast:
+	$(MAKE) -f Hazel/imGui/CMakeFiles/imGui_Layer.dir/build.make Hazel/imGui/CMakeFiles/imGui_Layer.dir/build
+.PHONY : imGui_Layer/fast
+
+#=============================================================================
 # Target rules for targets named Hazel-Executable
 
 # Build rule for target.
@@ -332,9 +358,11 @@ help:
 	@echo "... docs"
 	@echo "... Glad"
 	@echo "... imGUI"
+	@echo "... OpenGL_Commands"
 	@echo "... linux_window"
 	@echo "... Hazel-Logger"
 	@echo "... Hazel-layers"
+	@echo "... imGui_Layer"
 	@echo "... Hazel-Executable"
 .PHONY : help
 
