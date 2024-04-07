@@ -9,8 +9,14 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fPIC")
 
 add_library(${PROJECT_NAME} SHARED ImGuiLayer.cpp)
 
+find_package(OpenGL REQUIRED)
+
 target_include_directories(${PROJECT_NAME} PUBLIC .
-                        ../include)
+                        ../include
+                        ${OPENGL_INCLUDE_DIRS})
+
+
+
 
 target_link_libraries(${PROJECT_NAME} PRIVATE imGUI
 hzpch_lib
@@ -19,4 +25,7 @@ Hazel-events
 OpenGL_Commands
 glfw
 Hazel-Logger
-linux_window)
+linux_window
+${OPENGL_LIBRARIES}
+Glad
+)

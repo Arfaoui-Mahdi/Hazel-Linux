@@ -3,6 +3,8 @@
 
 Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o: ../Hazel/Events/ApplicationEvent.hpp
 Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o: ../Hazel/Events/Event.hpp
+Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o: ../Hazel/Events/KeyEvent.hpp
+Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o: ../Hazel/Events/MouseEvent.hpp
 Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o: ../Hazel/Hazel.hpp
 Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o: ../Hazel/Layers/include/Layer.hpp
 Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o: ../Hazel/Layers/include/LayerStack.hpp

@@ -4,6 +4,8 @@
 Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o
  ../Hazel/Events/ApplicationEvent.hpp
  ../Hazel/Events/Event.hpp
+ ../Hazel/Events/KeyEvent.hpp
+ ../Hazel/Events/MouseEvent.hpp
  ../Hazel/Hazel.hpp
  ../Hazel/Layers/include/Layer.hpp
  ../Hazel/Layers/include/LayerStack.hpp
