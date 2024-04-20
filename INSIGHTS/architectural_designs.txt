@@ -1,0 +1,6 @@
+- Declare an API in an interface that calls protected function that implements the API, this implementation should be defined by another
+party: client, another component... (episode 19, also used to implement Hazel::CreateApplication).
+The purpose of this design is to expose static function as API where their impementation are done in other places. 
+
+- Singleton design by declaring the instance as private in the interface, and define (create) it using a derivative class that implements
+the interface. This will give the user an abstraction on the lower level and will concentrate on only the usage of the interface.

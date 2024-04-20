@@ -4,6 +4,7 @@
 Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o
  ../Hazel/Events/ApplicationEvent.hpp
  ../Hazel/Events/Event.hpp
+ ../Hazel/Input.h
  ../Hazel/Layers/include/Layer.hpp
  ../Hazel/Layers/include/LayerStack.hpp
  ../Hazel/Logger/include/Log.hpp

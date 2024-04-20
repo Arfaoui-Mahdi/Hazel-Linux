@@ -7,6 +7,8 @@
 #include <GLFW/glfw3.h>
 #include <GL/gl.h>
 
+#include "Input.h"
+
 
 namespace Hazel
 {
@@ -58,7 +60,8 @@ namespace Hazel
 	void Application::Run()
 	{
 		while (m_Running)
-		{
+		{	
+			HZ_CORE_INFO("{0}, {1}", Input::GetMouseX(), Input::GetMouseY());
 			//glClearColor(1, 0, 1, 1);
 			//glClear(GL_COLOR_BUFFER_BIT);
 

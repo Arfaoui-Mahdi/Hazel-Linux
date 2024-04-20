@@ -7,13 +7,11 @@ set(CMAKE_CXX_STANDARD 20)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fPIC")
 
-add_library(${PROJECT_NAME} STATIC LinuxWindow.cpp)
+add_library(${PROJECT_NAME} STATIC LinuxWindow.cpp
+                                   LinuxInput.cpp)
 
 target_include_directories(${PROJECT_NAME} PUBLIC .
 ../../)
 
-target_link_libraries(${PROJECT_NAME} PRIVATE Hazel-Logger
-                                              hzpch_lib
-                                              glfw
-                                              Glad
+target_link_libraries(${PROJECT_NAME} PRIVATE Hazel-Library
                                               )

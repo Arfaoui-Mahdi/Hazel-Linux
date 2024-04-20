@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Hazel-Library.dir/src/Application.cpp.o"
+  "libHazel-Library.a"
   "libHazel-Library.pdb"
-  "libHazel-Library.so"
 )
 
 # Per-language clean rules from dependency scanning.

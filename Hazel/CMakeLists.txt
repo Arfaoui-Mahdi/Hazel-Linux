@@ -10,7 +10,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fPIC")
 set(CMAKE_CURRENT_BINARY_DIR ${CMAKE_CURRENT_SOURCE_DIR}/build)
 
 
-add_library(${PROJECT_NAME} SHARED src/Application.cpp
+add_library(${PROJECT_NAME} STATIC src/Application.cpp
                                   )
 
 target_include_directories(${PROJECT_NAME} PUBLIC include/ 

@@ -3,6 +3,7 @@
 
 Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o: ../Hazel/Events/ApplicationEvent.hpp
 Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o: ../Hazel/Events/Event.hpp
+Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o: ../Hazel/Input.h
 Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o: ../Hazel/Layers/include/Layer.hpp
 Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o: ../Hazel/Layers/include/LayerStack.hpp
 Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o: ../Hazel/Logger/include/Log.hpp

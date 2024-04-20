@@ -318,10 +318,10 @@ Hazel-Executable_BINARY_DIR:STATIC=/home/mahdi/Desktop/Workspace/GameEngine-Haze
 Hazel-Executable_SOURCE_DIR:STATIC=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Sandbox
 
 //Value Computed by CMake
-Hazel-Library_BINARY_DIR:STATIC=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/Platform
+Hazel-Library_BINARY_DIR:STATIC=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel
 
 //Value Computed by CMake
-Hazel-Library_SOURCE_DIR:STATIC=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Hazel/Platform
+Hazel-Library_SOURCE_DIR:STATIC=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/Hazel
 
 //Value Computed by CMake
 Hazel-Logger_BINARY_DIR:STATIC=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/Logger

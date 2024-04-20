@@ -79,16 +79,22 @@ Hazel__Executable_EXTERNAL_OBJECTS =
 
 Sandbox/Hazel-Executable: Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o
 Sandbox/Hazel-Executable: Sandbox/CMakeFiles/Hazel-Executable.dir/build.make
-Sandbox/Hazel-Executable: Hazel/libHazel-Library.so
+Sandbox/Hazel-Executable: Hazel/libHazel-Library.a
 Sandbox/Hazel-Executable: Hazel/Platform/Linux/liblinux_window.a
+Sandbox/Hazel-Executable: Hazel/imGui/libimGui_Layer.a
+Sandbox/Hazel-Executable: Hazel/libHazel-Library.a
+Sandbox/Hazel-Executable: Hazel/Platform/Linux/liblinux_window.a
+Sandbox/Hazel-Executable: Hazel/imGui/libimGui_Layer.a
 Sandbox/Hazel-Executable: Hazel/vendor/GLFW/src/libglfw3.a
 Sandbox/Hazel-Executable: /usr/lib/x86_64-linux-gnu/librt.so
 Sandbox/Hazel-Executable: /usr/lib/x86_64-linux-gnu/libm.so
 Sandbox/Hazel-Executable: Hazel/Layers/libHazel-layers.a
-Sandbox/Hazel-Executable: Hazel/imGui/libimGui_Layer.so
 Sandbox/Hazel-Executable: Hazel/Logger/libHazel-Logger.so
 Sandbox/Hazel-Executable: Hazel/vendor/Glad/libGlad.so
+Sandbox/Hazel-Executable: Hazel/Platform/OpenGL/libOpenGL_Commands.a
 Sandbox/Hazel-Executable: Hazel/vendor/imgui/libimGUI.so
+Sandbox/Hazel-Executable: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+Sandbox/Hazel-Executable: /usr/lib/x86_64-linux-gnu/libGLX.so
 Sandbox/Hazel-Executable: Sandbox/CMakeFiles/Hazel-Executable.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Hazel-Executable"
 	cd /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Sandbox && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Hazel-Executable.dir/link.txt --verbose=$(VERBOSE)
