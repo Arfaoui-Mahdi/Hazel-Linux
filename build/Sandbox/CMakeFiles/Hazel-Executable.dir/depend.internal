@@ -7,9 +7,12 @@ Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o
  ../Hazel/Events/KeyEvent.hpp
  ../Hazel/Events/MouseEvent.hpp
  ../Hazel/Hazel.hpp
+ ../Hazel/Input.h
+ ../Hazel/KeyCodes.h
  ../Hazel/Layers/include/Layer.hpp
  ../Hazel/Layers/include/LayerStack.hpp
  ../Hazel/Logger/include/Log.hpp
+ ../Hazel/MouseButtonCodes.h
  ../Hazel/Platform/Linux/LinuxWindow.hpp
  ../Hazel/Window.hpp
  ../Hazel/imGui/ImGuiLayer.h

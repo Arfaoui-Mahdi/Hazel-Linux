@@ -6,9 +6,12 @@ Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o: ../Hazel/Events/Eve
 Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o: ../Hazel/Events/KeyEvent.hpp
 Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o: ../Hazel/Events/MouseEvent.hpp
 Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o: ../Hazel/Hazel.hpp
+Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o: ../Hazel/Input.h
+Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o: ../Hazel/KeyCodes.h
 Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o: ../Hazel/Layers/include/Layer.hpp
 Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o: ../Hazel/Layers/include/LayerStack.hpp
 Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o: ../Hazel/Logger/include/Log.hpp
+Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o: ../Hazel/MouseButtonCodes.h
 Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o: ../Hazel/Platform/Linux/LinuxWindow.hpp
 Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o: ../Hazel/Window.hpp
 Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o: ../Hazel/imGui/ImGuiLayer.h

@@ -47,7 +47,7 @@ namespace Hazel
 		EventDispatcher dispatcher(e);
 		dispatcher.Dispatch<WindowCloseEvent>(BIND_EVENT_FN(OnWindowClose));
 
-		HZ_CORE_TRACE("{0}", e);
+		//HZ_CORE_TRACE("{0}", e);
 
 		for (auto it = m_LayerStack.end(); it != m_LayerStack.begin(); )
 		{
@@ -61,7 +61,6 @@ namespace Hazel
 	{
 		while (m_Running)
 		{	
-			HZ_CORE_INFO("{0}, {1}", Input::GetMouseX(), Input::GetMouseY());
 			//glClearColor(1, 0, 1, 1);
 			//glClear(GL_COLOR_BUFFER_BIT);
 

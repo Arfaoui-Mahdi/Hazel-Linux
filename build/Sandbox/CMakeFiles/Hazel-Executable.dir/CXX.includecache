@@ -39,12 +39,24 @@ imGui/ImGuiLayer.h
 ../Hazel/imGui/ImGuiLayer.h
 include/Application.hpp
 ../Hazel/include/Application.hpp
-include/EmtryPoint.hpp
-../Hazel/include/EmtryPoint.hpp
 Log.hpp
 ../Hazel/Log.hpp
 Layer.hpp
 ../Hazel/Layer.hpp
+Input.h
+../Hazel/Input.h
+KeyCodes.h
+../Hazel/KeyCodes.h
+MouseButtonCodes.h
+../Hazel/MouseButtonCodes.h
+include/EmtryPoint.hpp
+../Hazel/include/EmtryPoint.hpp
+
+../Hazel/Input.h
+include/Core.hpp
+../Hazel/include/Core.hpp
+
+../Hazel/KeyCodes.h
 
 ../Hazel/Layers/include/Layer.hpp
 Event.hpp
@@ -63,6 +75,8 @@ spdlog/spdlog.h
 ../Hazel/Logger/include/spdlog/spdlog.h
 spdlog/fmt/ostr.h
 ../Hazel/Logger/include/spdlog/fmt/ostr.h
+
+../Hazel/MouseButtonCodes.h
 
 ../Hazel/Platform/Linux/LinuxWindow.hpp
 Window.hpp

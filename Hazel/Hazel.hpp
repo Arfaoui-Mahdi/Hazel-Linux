@@ -12,6 +12,12 @@
 
 // Hazel includes
 #include "include/Application.hpp"
-#include "include/EmtryPoint.hpp" /* Entry Point */
 #include "Log.hpp"
 #include "Layer.hpp"
+
+#include "Input.h"
+#include "KeyCodes.h"
+#include "MouseButtonCodes.h"
+
+//*********** Entry Point ***********//
+#include "include/EmtryPoint.hpp" /* Entry Point */
