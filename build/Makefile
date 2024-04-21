@@ -261,6 +261,19 @@ imGUI/fast:
 .PHONY : imGUI/fast
 
 #=============================================================================
+# Target rules for targets named glm
+
+# Build rule for target.
+glm: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 glm
+.PHONY : glm
+
+# fast build rule for target.
+glm/fast:
+	$(MAKE) -f Hazel/vendor/glm/glm/CMakeFiles/glm.dir/build.make Hazel/vendor/glm/glm/CMakeFiles/glm.dir/build
+.PHONY : glm/fast
+
+#=============================================================================
 # Target rules for targets named OpenGL_Commands
 
 # Build rule for target.
@@ -358,6 +371,7 @@ help:
 	@echo "... docs"
 	@echo "... Glad"
 	@echo "... imGUI"
+	@echo "... glm"
 	@echo "... OpenGL_Commands"
 	@echo "... linux_window"
 	@echo "... Hazel-Logger"

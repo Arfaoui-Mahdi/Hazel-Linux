@@ -85,6 +85,7 @@ Sandbox/Hazel-Executable: Hazel/imGui/libimGui_Layer.a
 Sandbox/Hazel-Executable: Hazel/libHazel-Library.a
 Sandbox/Hazel-Executable: Hazel/Platform/Linux/liblinux_window.a
 Sandbox/Hazel-Executable: Hazel/imGui/libimGui_Layer.a
+Sandbox/Hazel-Executable: Hazel/vendor/glm/glm/libglm.a
 Sandbox/Hazel-Executable: Hazel/vendor/GLFW/src/libglfw3.a
 Sandbox/Hazel-Executable: /usr/lib/x86_64-linux-gnu/librt.so
 Sandbox/Hazel-Executable: /usr/lib/x86_64-linux-gnu/libm.so

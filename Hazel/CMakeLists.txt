@@ -17,6 +17,8 @@ target_include_directories(${PROJECT_NAME} PUBLIC include/
                                                   .
 )
 
+
+
 target_link_libraries(${PROJECT_NAME} PUBLIC Hazel-Logger
 hzpch_lib
 glfw
@@ -25,7 +27,8 @@ Hazel-layers
 Hazel-events
 Glad
 imGUI
-imGui_Layer)
+imGui_Layer
+glm)
 
 add_subdirectory(vendor)
 add_subdirectory(pre_compiled_header)
@@ -35,4 +38,4 @@ add_subdirectory(Layers)
 add_subdirectory(Events)
 add_subdirectory(imGui)
 
-
+find_package(glm CONFIG REQUIRED)
