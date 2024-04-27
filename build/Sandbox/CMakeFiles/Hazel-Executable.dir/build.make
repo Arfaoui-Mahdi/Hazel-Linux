@@ -92,7 +92,6 @@ Sandbox/Hazel-Executable: /usr/lib/x86_64-linux-gnu/libm.so
 Sandbox/Hazel-Executable: Hazel/Layers/libHazel-layers.a
 Sandbox/Hazel-Executable: Hazel/Logger/libHazel-Logger.so
 Sandbox/Hazel-Executable: Hazel/vendor/Glad/libGlad.so
-Sandbox/Hazel-Executable: Hazel/Platform/OpenGL/libOpenGL_Commands.a
 Sandbox/Hazel-Executable: Hazel/vendor/imgui/libimGUI.so
 Sandbox/Hazel-Executable: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 Sandbox/Hazel-Executable: /usr/lib/x86_64-linux-gnu/libGLX.so

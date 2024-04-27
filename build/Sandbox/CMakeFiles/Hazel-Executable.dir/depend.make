@@ -19,6 +19,8 @@ Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o: ../Hazel/include/Ap
 Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o: ../Hazel/include/Core.hpp
 Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o: ../Hazel/include/EmtryPoint.hpp
 Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o: ../Hazel/pre_compiled_header/hzpch.hpp
+Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o: ../Hazel/vendor/imgui/imconfig.h
+Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o: ../Hazel/vendor/imgui/imgui.h
 Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o: ../Hazel/vendor/spdlog/include/spdlog/common-inl.h
 Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o: ../Hazel/vendor/spdlog/include/spdlog/common.h
 Sandbox/CMakeFiles/Hazel-Executable.dir/src/SanboxApp.cpp.o: ../Hazel/vendor/spdlog/include/spdlog/details/backtracer-inl.h

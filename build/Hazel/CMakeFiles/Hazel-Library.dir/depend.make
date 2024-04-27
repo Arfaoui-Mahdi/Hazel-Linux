@@ -3,12 +3,15 @@
 
 Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o: ../Hazel/Events/ApplicationEvent.hpp
 Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o: ../Hazel/Events/Event.hpp
+Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o: ../Hazel/Events/KeyEvent.hpp
+Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o: ../Hazel/Events/MouseEvent.hpp
 Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o: ../Hazel/Input.h
 Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o: ../Hazel/Layers/include/Layer.hpp
 Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o: ../Hazel/Layers/include/LayerStack.hpp
 Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o: ../Hazel/Logger/include/Log.hpp
 Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o: ../Hazel/Platform/Linux/LinuxWindow.hpp
 Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o: ../Hazel/Window.hpp
+Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o: ../Hazel/imGui/ImGuiLayer.h
 Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o: ../Hazel/include/Application.hpp
 Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o: ../Hazel/include/Core.hpp
 Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o: ../Hazel/pre_compiled_header/hzpch.hpp

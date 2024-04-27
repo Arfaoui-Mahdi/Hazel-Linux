@@ -4,12 +4,15 @@
 Hazel/CMakeFiles/Hazel-Library.dir/src/Application.cpp.o
  ../Hazel/Events/ApplicationEvent.hpp
  ../Hazel/Events/Event.hpp
+ ../Hazel/Events/KeyEvent.hpp
+ ../Hazel/Events/MouseEvent.hpp
  ../Hazel/Input.h
  ../Hazel/Layers/include/Layer.hpp
  ../Hazel/Layers/include/LayerStack.hpp
  ../Hazel/Logger/include/Log.hpp
  ../Hazel/Platform/Linux/LinuxWindow.hpp
  ../Hazel/Window.hpp
+ ../Hazel/imGui/ImGuiLayer.h
  ../Hazel/include/Application.hpp
  ../Hazel/include/Core.hpp
  ../Hazel/pre_compiled_header/hzpch.hpp

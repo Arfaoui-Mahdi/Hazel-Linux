@@ -85,13 +85,6 @@
 /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/Platform/CMakeFiles/list_install_components.dir
 /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/Platform/CMakeFiles/rebuild_cache.dir
 /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/Platform/CMakeFiles/edit_cache.dir
-/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/Platform/OpenGL/CMakeFiles/install/strip.dir
-/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/Platform/OpenGL/CMakeFiles/install.dir
-/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/Platform/OpenGL/CMakeFiles/list_install_components.dir
-/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/Platform/OpenGL/CMakeFiles/rebuild_cache.dir
-/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/Platform/OpenGL/CMakeFiles/edit_cache.dir
-/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/Platform/OpenGL/CMakeFiles/install/local.dir
-/home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/Platform/OpenGL/CMakeFiles/OpenGL_Commands.dir
 /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/Platform/Linux/CMakeFiles/install/strip.dir
 /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/Platform/Linux/CMakeFiles/install/local.dir
 /home/mahdi/Desktop/Workspace/GameEngine-Hazel/Hazel-Linux/build/Hazel/Platform/Linux/CMakeFiles/install.dir

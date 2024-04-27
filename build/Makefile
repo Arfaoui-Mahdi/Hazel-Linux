@@ -274,19 +274,6 @@ glm/fast:
 .PHONY : glm/fast
 
 #=============================================================================
-# Target rules for targets named OpenGL_Commands
-
-# Build rule for target.
-OpenGL_Commands: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 OpenGL_Commands
-.PHONY : OpenGL_Commands
-
-# fast build rule for target.
-OpenGL_Commands/fast:
-	$(MAKE) -f Hazel/Platform/OpenGL/CMakeFiles/OpenGL_Commands.dir/build.make Hazel/Platform/OpenGL/CMakeFiles/OpenGL_Commands.dir/build
-.PHONY : OpenGL_Commands/fast
-
-#=============================================================================
 # Target rules for targets named linux_window
 
 # Build rule for target.
@@ -372,7 +359,6 @@ help:
 	@echo "... Glad"
 	@echo "... imGUI"
 	@echo "... glm"
-	@echo "... OpenGL_Commands"
 	@echo "... linux_window"
 	@echo "... Hazel-Logger"
 	@echo "... Hazel-layers"
